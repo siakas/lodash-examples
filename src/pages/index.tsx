@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 
-import Header from '@/components/Header'
+import DefaultLayout from '@/layout/DefaultLayout'
 
 const Home: NextPage = () => {
   return (
-    <>
-      <Header />
-    </>
+    <DefaultLayout>
+      <p>hogehoge</p>
+    </DefaultLayout>
   )
 }
 

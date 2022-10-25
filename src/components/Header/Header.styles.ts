@@ -1,31 +1,19 @@
 import { css } from '@emotion/react'
 
 export const header = css`
-  padding: 26px;
-  width: 100%;
+  background: #2980b9;
+  color: #fff;
 `
 
 export const inner = css`
   max-width: 1325px;
   margin: 0 auto;
+  padding: 2rem 1.5rem;
   width: 100%;
 `
 
-export const nav = css`
+export const title = css`
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  position: relative;
-
-  > li {
-    > a {
-      display: block;
-      /* color: #fff; */
-      cursor: pointer;
-      font-size: 1.2rem;
-      font-weight: 300;
-      padding: 1rem 1.5rem;
-    }
-  }
+  line-height: 1.2;
+  text-align: center;
 `

@@ -5,19 +5,9 @@ import * as styles from './Header.styles'
 const Header: FC = () => {
   return (
     <header css={styles.header}>
-      <nav css={styles.inner}>
-        <ul css={styles.nav}>
-          <li>
-            <a>Shop List</a>
-          </li>
-          <li>
-            <a>Campaign</a>
-          </li>
-          <li>
-            <a>Web Store</a>
-          </li>
-        </ul>
-      </nav>
+      <div css={styles.inner}>
+        <h1 css={styles.title}>Lodash Examples</h1>
+      </div>
     </header>
   )
 }

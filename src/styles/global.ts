@@ -6,6 +6,7 @@ export const global = css`
     color: #222;
     font-size: 1rem;
     position: relative;
+    font-family: 'Open Sans', sans-serif;
   }
 
   img,
