@@ -25,8 +25,9 @@ export const global = css`
   }
 
   p {
-    margin: 0;
+    margin: 1.2em 0;
     max-height: 100%;
+    line-height: 1.9;
   }
 
   hr {

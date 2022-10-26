@@ -49,6 +49,11 @@ const Home: NextPage = () => {
             <a>条件に一致するもので絞り込む（filter）</a>
           </Link>
         </li>
+        <li>
+          <Link href="/spots/filter-includes/">
+            <a>配列の条件に一致するもので絞り込む（filter, includes）</a>
+          </Link>
+        </li>
       </ul>
     </DefaultLayout>
   )

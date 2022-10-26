@@ -39,10 +39,10 @@ export const textRight = css`
 
 export const inlineCode = css`
   background-color: #e6edf5;
-  padding: 0.3em 0.5em;
+  padding: 0.24em 0.5em;
   font-size: 0.9em;
   border-radius: 4px;
-  margin: 0 0.2em;
+  margin: 0 0.3em;
   vertical-align: middle;
 `
 
