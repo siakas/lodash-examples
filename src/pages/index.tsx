@@ -54,6 +54,11 @@ const Home: NextPage = () => {
             <a>配列の条件に一致するもので絞り込む（filter, includes）</a>
           </Link>
         </li>
+        <li>
+          <Link href="/spots/find/">
+            <a>条件に一致する最初の要素を取得する（find）</a>
+          </Link>
+        </li>
       </ul>
     </DefaultLayout>
   )
