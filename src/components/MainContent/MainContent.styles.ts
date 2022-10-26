@@ -11,6 +11,6 @@ export const inner = css`
   border-style: solid;
   border-color: #eee;
   margin: 0 auto;
-  padding: 3rem 5rem;
+  padding: 3rem 5rem 5rem;
   min-height: 60vh;
 `
