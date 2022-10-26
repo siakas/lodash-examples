@@ -45,6 +45,7 @@ export const inlineCode = css`
   border-radius: 4px;
   margin: 0 0.3em;
   vertical-align: middle;
+  font-family: Menlo, Consolas, Liberation Mono, monospace;
 `
 
 export const preCode = css`
@@ -54,6 +55,7 @@ export const preCode = css`
   font-size: 0.85rem !important;
   padding: 1.2rem !important;
   border-radius: 6px !important;
+  background: #f4f4f4 !important;
 
   > code {
     font-size: inherit;
@@ -64,4 +66,23 @@ export const preCode = css`
 
 export const outline = css`
   margin: 2rem 0;
+`
+
+export const index = css`
+  > li {
+    line-height: 1.7;
+
+    + li {
+      margin-top: 0.1em;
+    }
+
+    a {
+      color: #2980b9;
+      text-decoration: none;
+
+      :hover {
+        text-decoration: underline;
+      }
+    }
+  }
 `

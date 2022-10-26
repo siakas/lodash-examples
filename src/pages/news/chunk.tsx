@@ -13,7 +13,6 @@ import * as styles from '@/styles/mods.styles'
 
 const NewsChunk: NextPage = () => {
   const data = _.chunk(SheetData.data, 5)
-  console.log(data)
 
   return (
     <DefaultLayout>

@@ -3,11 +3,13 @@ import Link from 'next/link'
 
 import DefaultLayout from '@/layout/DefaultLayout'
 
+import * as styles from '@/styles/mods.styles'
+
 const Home: NextPage = () => {
   return (
     <DefaultLayout>
       <h2>JSON データ</h2>
-      <ul>
+      <ul css={styles.index}>
         <li>
           <a href="/data/spots.json" target="_blank" rel="noopener noreferrer">
             紅葉スポット情報
@@ -39,7 +41,7 @@ const Home: NextPage = () => {
       </ul>
       <h2>配列操作サンプル</h2>
       <h3>紅葉スポット</h3>
-      <ul>
+      <ul css={styles.index}>
         <li>
           <Link href="/spots/">
             <a>紅葉スポット全表示</a>
@@ -60,9 +62,14 @@ const Home: NextPage = () => {
             <a>条件に一致する最初の要素を取得する（find）</a>
           </Link>
         </li>
+        <li>
+          <Link href="/spots/padstart/">
+            <a>ゼロパディング、ゼロサプレス（padStart, trimStart）</a>
+          </Link>
+        </li>
       </ul>
       <h3>ニュース一覧</h3>
-      <ul>
+      <ul css={styles.index}>
         <li>
           <Link href="/news/">
             <a>ニュース一覧全表示</a>
@@ -76,6 +83,16 @@ const Home: NextPage = () => {
         <li>
           <Link href="/news/chunk/">
             <a>指定した件数で配列を分割する（chunk）</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/news/orderby/">
+            <a>指定したプロパティの値（あるいは関数）でソートする（orderBy）</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/news/clonedeep/">
+            <a>配列やオブジェクトを深い階層までまるごと複製する（cloneDeep）</a>
           </Link>
         </li>
       </ul>
