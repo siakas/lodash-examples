@@ -1,7 +1,7 @@
 import { css } from '@emotion/react'
 
 export const table = css`
-  margin: 0;
+  margin: 0 0 2rem;
   border: 1px solid #ddd;
   border-collapse: collapse;
   width: 100%;

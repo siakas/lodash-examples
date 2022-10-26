@@ -73,6 +73,11 @@ const Home: NextPage = () => {
             <a>配列の最初から指定した件数の値を取得（take）</a>
           </Link>
         </li>
+        <li>
+          <Link href="/news/chunk/">
+            <a>指定した件数で配列を分割する（chunk）</a>
+          </Link>
+        </li>
       </ul>
     </DefaultLayout>
   )
