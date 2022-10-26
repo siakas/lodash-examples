@@ -11,8 +11,8 @@ import BackHomeButton from '@/components/BackHomeButton'
 
 import * as styles from '@/styles/mods.styles'
 
-const SpotsIndex: NextPage = () => {
-  const spot = _.find(SheetData.spots, (item) => {
+const SpotsFind: NextPage = () => {
+  const spot: any = _.find(SheetData.spots, (item) => {
     return item.kanaHead === 'た'
   })
 
@@ -30,7 +30,9 @@ const SpotsIndex: NextPage = () => {
         style={atomOneLight}
         css={styles.preCode}
       >
-        {`const spot = _.find(SheetData.spots, (item) => {
+        {`import SheetData from '@/data/spots.json'
+
+const spot = _.find(SheetData.spots, (item) => {
   return item.kanaHead === 'た'
 })`}
       </SyntaxHighlighter>
@@ -64,4 +66,4 @@ const SpotsIndex: NextPage = () => {
   )
 }
 
-export default SpotsIndex
+export default SpotsFind

@@ -11,7 +11,7 @@ import BackHomeButton from '@/components/BackHomeButton'
 
 import * as styles from '@/styles/mods.styles'
 
-const SpotsIndex: NextPage = () => {
+const SpotsFilter: NextPage = () => {
   const spots = _.filter(SheetData.spots, (item) => {
     return item.city === '滋賀'
   })
@@ -78,4 +78,4 @@ const spots = _.filter(SheetData.spots, (item) => {
   )
 }
 
-export default SpotsIndex
+export default SpotsFilter

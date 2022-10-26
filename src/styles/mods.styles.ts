@@ -4,6 +4,7 @@ export const table = css`
   margin: 0;
   border: 1px solid #ddd;
   border-collapse: collapse;
+  width: 100%;
 
   th,
   td {

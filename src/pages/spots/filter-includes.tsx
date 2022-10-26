@@ -11,7 +11,7 @@ import BackHomeButton from '@/components/BackHomeButton'
 
 import * as styles from '@/styles/mods.styles'
 
-const SpotsIndex: NextPage = () => {
+const SpotsFilterIncludes: NextPage = () => {
   const pickup = ['清水寺', '貴船神社', '醍醐寺', '比叡山延暦寺']
 
   const spots = _.filter(SheetData.spots, (item) => {
@@ -40,7 +40,9 @@ const SpotsIndex: NextPage = () => {
         style={atomOneLight}
         css={styles.preCode}
       >
-        {`const pickup = ['清水寺', '貴船神社', '醍醐寺', '比叡山延暦寺']
+        {`import SheetData from '@/data/spots.json'
+
+const pickup = ['清水寺', '貴船神社', '醍醐寺', '比叡山延暦寺']
 
 const spots = _.filter(SheetData.spots, (item) => {
   return _.includes(pickup, item.name)
@@ -103,4 +105,4 @@ const spots = _.filter(SheetData.spots, (item) => {
   )
 }
 
-export default SpotsIndex
+export default SpotsFilterIncludes

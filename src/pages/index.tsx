@@ -38,6 +38,7 @@ const Home: NextPage = () => {
         </li>
       </ul>
       <h2>配列操作サンプル</h2>
+      <h3>紅葉スポット</h3>
       <ul>
         <li>
           <Link href="/spots/">
@@ -57,6 +58,19 @@ const Home: NextPage = () => {
         <li>
           <Link href="/spots/find/">
             <a>条件に一致する最初の要素を取得する（find）</a>
+          </Link>
+        </li>
+      </ul>
+      <h3>ニュース一覧</h3>
+      <ul>
+        <li>
+          <Link href="/news/">
+            <a>ニュース一覧全表示</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/news/take/">
+            <a>配列の最初から指定した件数の値を取得（take）</a>
           </Link>
         </li>
       </ul>
