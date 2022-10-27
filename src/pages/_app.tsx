@@ -9,8 +9,8 @@ import { global } from '@/styles/global'
 function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   return (
     <AnimatePresence
-      exitBeforeEnter
-      onExitComplete={() => window.scrollTo(0, 0)}
+    // exitBeforeEnter
+    // onExitComplete={() => window.scrollTo(0, 0)}
     >
       {/* アプリ全体に適用されるグローバルスタイルを定義 */}
       <Global styles={global} />
