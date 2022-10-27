@@ -38,7 +38,10 @@ const SpotsPadStart: NextPage = () => {
       <p>
         Lodash ではゼロパディングは
         <code css={styles.inlineCode}>_.padStart</code>、ゼロサプレスは
-        <code css={styles.inlineCode}>_.trimStart</code>を使うことで実現できる。
+        <code css={styles.inlineCode}>_.trimStart</code>
+        を使うことで実現できる（いずれも文字列の頭から連続している文字に対して処理を実行する。文字列の末尾からの処理は
+        <code css={styles.inlineCode}>_.padEnd</code>、
+        <code css={styles.inlineCode}>_.trimEnd</code>を使用する）
       </p>
 
       <SyntaxHighlighter
@@ -60,6 +63,11 @@ console.log(str) // 123`}
         以下の例では配列に格納された各スポットオブジェクトの
         <code css={styles.inlineCode}>id</code>
         に対してゼロパディング処理をおこない、3 桁の文字列に変換する。
+        <code css={styles.inlineCode}>_.padStart</code>
+        は配列ではなく<strong>文字列に対して実行するメソッド</strong>
+        なので、ここでは
+        <code css={styles.inlineCode}>_.map</code>
+        を使ってループ処理をおこなっている。
       </p>
 
       <SyntaxHighlighter

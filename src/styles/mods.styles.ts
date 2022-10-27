@@ -4,12 +4,12 @@ export const table = css`
   margin: 0 0 2rem;
   border: 1px solid #ddd;
   border-collapse: collapse;
-  width: 100%;
+  /* width: 100%; */
 
   th,
   td {
     border: 1px solid #ddd;
-    padding: 0.6em;
+    padding: 0.6em 2em 0.6em 1em;
   }
 
   thead {

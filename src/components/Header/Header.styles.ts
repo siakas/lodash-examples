@@ -16,4 +16,9 @@ export const title = css`
   margin: 0;
   line-height: 1.2;
   text-align: center;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 `

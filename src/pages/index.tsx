@@ -95,6 +95,16 @@ const Home: NextPage = () => {
             <a>配列やオブジェクトを深い階層までまるごと複製する（cloneDeep）</a>
           </Link>
         </li>
+        <li>
+          <Link href="/news/map/">
+            <a>配列をループして整形し、あらたな配列を生成（map）</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/news/map-uniqueby/">
+            <a>map で生成した配列から重複した内容を削除（map, uniqBy）</a>
+          </Link>
+        </li>
       </ul>
     </DefaultLayout>
   )
