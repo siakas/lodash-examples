@@ -37,7 +37,7 @@ const spots = _.filter(SheetData.spots, (item) => {
 })`}
       </SyntaxHighlighter>
 
-      <p>第二引数に関数ではなく、オブジェクトを渡して判定することもできる</p>
+      <p>第二引数に関数ではなく、オブジェクトを渡して判定することもできる。</p>
 
       <SyntaxHighlighter
         language="javascript"

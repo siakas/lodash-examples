@@ -106,6 +106,19 @@ const Home: NextPage = () => {
           </Link>
         </li>
       </ul>
+      <h3>採用情報</h3>
+      <ul css={styles.index}>
+        <li>
+          <Link href="/recruit/">
+            <a>採用情報全表示</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/recruit/groupby/">
+            <a>指定したプロパティによるグループ化（groupBy）</a>
+          </Link>
+        </li>
+      </ul>
     </DefaultLayout>
   )
 }

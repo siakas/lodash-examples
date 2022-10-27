@@ -4,12 +4,16 @@ export const table = css`
   margin: 0 0 2rem;
   border: 1px solid #ddd;
   border-collapse: collapse;
-  /* width: 100%; */
+  width: 100%;
 
   th,
   td {
     border: 1px solid #ddd;
     padding: 0.6em 2em 0.6em 1em;
+  }
+
+  th {
+    padding-right: 1em;
   }
 
   thead {
@@ -26,6 +30,17 @@ export const table = css`
       text-align: left;
       font-weight: normal;
     }
+
+    td {
+      a {
+        color: #2980b9;
+        text-decoration: none;
+
+        :hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 `
 
@@ -36,6 +51,7 @@ export const nowrap = css`
 export const textRight = css`
   text-align: right;
   margin: 0.4em 0;
+  font-size: 0.85em;
 `
 
 export const inlineCode = css`

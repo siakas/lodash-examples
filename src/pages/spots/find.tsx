@@ -22,7 +22,8 @@ const SpotsFind: NextPage = () => {
 
       <p>
         <code css={styles.inlineCode}>_.find</code>
-        は条件に一致した最初の要素のみを返す。この時、返ってくる値は配列ではないことに注意する。
+        は条件に一致した最初の要素のみを返す。この時、返ってくる値は
+        <strong>配列ではない</strong>ことに注意する。
       </p>
 
       <SyntaxHighlighter
