@@ -121,7 +121,7 @@ const RecruitMapValuesGroupBy: NextPage = () => {
           <code css={styles.inlineCode}>_.mapValues</code>
           で整形。関数の引数にはプロパティごとの値（
           <code css={styles.inlineCode}>value</code>
-          ）を受け取り、ここでは配列が渡されることになる
+          ）を受け取り、ここでは採用形態のキーの値である配列が渡されることになる
         </li>
         <li>
           <code css={styles.inlineCode}>_.mapValues</code>
