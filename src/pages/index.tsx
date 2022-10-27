@@ -127,6 +127,23 @@ const Home: NextPage = () => {
           </Link>
         </li>
       </ul>
+      <h3>二十四節気</h3>
+      <ul css={styles.index}>
+        <li>
+          <Link href="/calendar/">
+            <a>二十四節気全表示</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/calendar/map/">
+            <a>
+              Lodash
+              のメソッドチェーンを使った、プロパティの追加やソート等による配列の整形（Wrapper
+              記法, map, sortBy）
+            </a>
+          </Link>
+        </li>
+      </ul>
     </DefaultLayout>
   )
 }
