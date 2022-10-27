@@ -121,7 +121,7 @@ const Home: NextPage = () => {
         <li>
           <Link href="/recruit/mapvalues-groupby/">
             <a>
-              配列のオブジェクト化とオブジェクトプロパティの値の変更（groupBy,
+              グループ化されたオブジェクトの配列をさらにグループ化（groupBy,
               mapValues）
             </a>
           </Link>

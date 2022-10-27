@@ -27,7 +27,7 @@ const RecruitMapValuesGroupBy: NextPage = () => {
   return (
     <DefaultLayout>
       <h2>
-        配列のオブジェクト化とオブジェクトプロパティの値の変更（groupBy,
+        グループ化されたオブジェクトの配列をさらにグループ化（groupBy,
         mapValues）
       </h2>
 
@@ -249,7 +249,7 @@ const groupedByShop = _.mapValues(groupedByCareer, (value) => {
       </SyntaxHighlighter>
 
       <p>
-        上記のオブジェクトをループ処理することで、以下のように採用形態を
+        上記の階層構造を持ったオブジェクトをループ処理することで、以下のように採用形態を
         <strong>見出し3</strong>、業態を<strong>見出し4</strong>
         とした出力ができる。
       </p>
