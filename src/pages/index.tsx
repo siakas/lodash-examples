@@ -118,6 +118,14 @@ const Home: NextPage = () => {
             <a>指定したプロパティによるグループ化（groupBy）</a>
           </Link>
         </li>
+        <li>
+          <Link href="/recruit/mapvalues-groupby/">
+            <a>
+              配列のオブジェクト化とオブジェクトプロパティの値の変更（groupBy,
+              mapValues）
+            </a>
+          </Link>
+        </li>
       </ul>
     </DefaultLayout>
   )

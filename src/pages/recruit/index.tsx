@@ -26,7 +26,7 @@ const RecruitIndex: NextPage = () => {
             </th>
             <th>募集職種</th>
             <th>採用形態</th>
-            <th>問い合わせ先</th>
+            <th>業態</th>
           </tr>
         </thead>
         <tbody>

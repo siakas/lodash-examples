@@ -102,3 +102,13 @@ export const index = css`
     }
   }
 `
+
+export const ol = css`
+  > li {
+    line-height: 1.7;
+
+    + li {
+      margin-top: 0.1em;
+    }
+  }
+`

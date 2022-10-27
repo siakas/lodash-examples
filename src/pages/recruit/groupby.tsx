@@ -16,20 +16,18 @@ const RecruitGroupBy: NextPage = () => {
     return item.career
   })
 
-  console.log(data)
-
   return (
     <DefaultLayout>
       <h2>指定したプロパティによるグループ化（groupBy）</h2>
 
       <p>
         <code css={styles.inlineCode}>_.groupBy</code>
-        は第一引数に指定した配列に対して、第二引数の関数の処理内容、あるいはその返り値をキーとしてあらたな連想配列を作成し、同じキーを持つ要素をグループ化して格納した配列を生成する。
+        は第一引数に指定した配列に対して、第二引数の関数の返り値をキーとしてあらたなオブジェクトを作成し、同じキーを持つ要素をグループ化して格納した配列をキーの値として生成する。
       </p>
 
       <p>
         以下の例では<code css={styles.inlineCode}>career</code>
-        をキーとした連想配列を生成することで、採用形態によるグルーピングをおこなっている。
+        の値をキーとしたオブジェクトを生成することで、採用形態によるグルーピングをおこなっている。
       </p>
 
       <SyntaxHighlighter
@@ -44,9 +42,7 @@ const data = _.groupBy(SheetData.recruits, (item) => {
 })`}
       </SyntaxHighlighter>
 
-      <p>
-        これにより、シンプルなオブジェクトを格納した配列を連想配列の形に整形できる。
-      </p>
+      <p>これにより、シンプルな配列をオブジェクトの形に整形できる。</p>
 
       <SyntaxHighlighter
         language="json"
@@ -168,9 +164,10 @@ const data = _.groupBy(SheetData.recruits, (item) => {
       </SyntaxHighlighter>
 
       <p>
-        以下ではこのグルーピングされたオブジェクトを使い、グループ化のキーを見出しに、バリューの配列をテーブルで出力している。
+        以下ではこのグルーピングされたオブジェクトを使い、グループ化のキーを見出し、値の配列をテーブルで出力している。
         <br />
-        連想配列のループには<code css={styles.inlineCode}>Object.keys()</code>
+        オブジェクトのループには
+        <code css={styles.inlineCode}>Object.keys()</code>
         を使用している。
       </p>
 
@@ -216,7 +213,7 @@ const data = _.groupBy(SheetData.recruits, (item) => {
                 </th>
                 <th>募集職種</th>
                 <th>分類</th>
-                <th>問い合わせ先</th>
+                <th>業態</th>
               </tr>
             </thead>
             <tbody>
@@ -241,42 +238,6 @@ const data = _.groupBy(SheetData.recruits, (item) => {
           </table>
         </div>
       ))}
-
-      {/* <p css={styles.textRight}>全 {data.length} 件</p>
-      <table css={styles.table}>
-        <thead>
-          <tr>
-            <th>店舗名</th>
-            <th>
-              募集
-              <br />
-              エリア
-            </th>
-            <th>募集職種</th>
-            <th>分類</th>
-            <th>問い合わせ先</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item, index) => (
-            <tr key={index}>
-              <th>{item.title}</th>
-              <td css={styles.nowrap}>{item.area}</td>
-              <td>
-                <a
-                  href={item.permalink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {item.jobName}
-                </a>
-              </td>
-              <td css={styles.nowrap}>{item.career}</td>
-              <td css={styles.nowrap}>{item.shop}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table> */}
 
       <BackHomeButton />
     </DefaultLayout>
