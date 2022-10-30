@@ -314,8 +314,10 @@ const groupedByShop = _.mapValues(groupedByCareer, (value) => {
                 <tbody>
                   {groupedByShop[career][shop].map((item, index) => (
                     <tr key={index}>
-                      <th>{item.title}</th>
-                      <td css={styles.nowrap}>{item.area}</td>
+                      <th style={{ width: '20%' }}>{item.title}</th>
+                      <td style={{ width: '10%' }} css={styles.nowrap}>
+                        {item.area}
+                      </td>
                       <td>
                         <a
                           href={item.permalink}
@@ -325,8 +327,12 @@ const groupedByShop = _.mapValues(groupedByCareer, (value) => {
                           {item.jobName}
                         </a>
                       </td>
-                      <td css={styles.nowrap}>{item.career}</td>
-                      <td css={styles.nowrap}>{item.shop}</td>
+                      <td style={{ width: '15%' }} css={styles.nowrap}>
+                        {item.career}
+                      </td>
+                      <td style={{ width: '15%' }} css={styles.nowrap}>
+                        {item.shop}
+                      </td>
                     </tr>
                   ))}
                 </tbody>

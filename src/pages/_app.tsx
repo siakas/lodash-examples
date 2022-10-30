@@ -1,10 +1,9 @@
 import type { AppProps } from 'next/app'
 
-import { Global } from '@emotion/react'
 import { AnimatePresence } from 'framer-motion'
 
+import '@/styles/globals.scss'
 import 'sanitize.css'
-import { global } from '@/styles/global'
 
 function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   return (
@@ -12,8 +11,6 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
       exitBeforeEnter
       onExitComplete={() => window.scrollTo(0, 0)}
     >
-      {/* アプリ全体に適用されるグローバルスタイルを定義 */}
-      <Global styles={global} />
       <Component key={router.asPath} {...pageProps} />
     </AnimatePresence>
   )

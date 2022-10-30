@@ -12,7 +12,7 @@ import BackHomeButton from '@/components/BackHomeButton'
 
 import * as styles from '@/styles/mods.styles'
 
-const CalendarIndex: NextPage = () => {
+const CalendarMap: NextPage = () => {
   // 今日の日付を取得
   const today = moment(new Date(), 'YYYY-MM-DD').format('YYYY-MM-DD')
 
@@ -172,4 +172,4 @@ const data = _(SheetData.calendars) // Lodash の Wrapper 記法では最初に�
   )
 }
 
-export default CalendarIndex
+export default CalendarMap

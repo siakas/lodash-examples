@@ -126,6 +126,11 @@ const Home: NextPage = () => {
             </a>
           </Link>
         </li>
+        {/* <li>
+          <Link href="/recruit/reduce/">
+            <a>（reduce）</a>
+          </Link>
+        </li> */}
       </ul>
       <h3>二十四節気</h3>
       <ul css={styles.index}>
@@ -141,6 +146,11 @@ const Home: NextPage = () => {
               のメソッドチェーンを使った、プロパティの追加やソート等による配列の整形（Wrapper
               記法, map, sortBy）
             </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/calendar/keyby/">
+            <a>配列のオブジェクト化（keyBy）</a>
           </Link>
         </li>
       </ul>
