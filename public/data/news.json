@@ -1,0 +1,572 @@
+{
+  "data": [
+    {
+      "id": "001152",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "新型コロナウイルス感染症対策による、店舗の営業時間とご提供内容について(2022年8月21日現在)",
+      "body": "<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">平素より祇園辻利・茶寮都路里をご贔屓賜りまして、厚く御礼申し上げます。</span></p>\r\n<p class=\" typesquare_option typesquare_option\">現在、店舗におきましては、お客様及び従業員の感染リスクを軽減し、お客様が安心してお買い物やお食事をお楽しみいただけるよう、各種対策を実施した上で営業をいたしております。(対策の詳細は<a href=\"https://www.giontsujiri.co.jp/news/130ab831373264a9f8dfac0f8d2452a42cff84d0.html\" class=\" typesquare_option typesquare_option\">こちら</a>をごらん下さい。)</p>\r\n<p class=\" typesquare_option typesquare_option\">なお、新型コロナウイルス感染症対策のため、営業時間が一部通常と異なる店舗がございますので、下記をご参照くださいませ。また、感染拡大状況等により急遽予告なく営業時間が変更となる場合がございます。</p>\r\n<p class=\" typesquare_option typesquare_option\"></p>\r\n<h5 class=\" typesquare_option typesquare_option\">―祇園辻利</h5>\r\n<h6 class=\" typesquare_option typesquare_option\">■祇園本店</h6>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">[時短営業] <br /></span><span><span class=\" typesquare_option typesquare_option\"><strong><b>～8月10日<br /></b></strong></span></span><span><span class=\" typesquare_option typesquare_option\"><strong>平日 10:30〜19:00<br />土日祝 10:30〜20:00<br /><br /></strong></span></span><span class=\" typesquare_option typesquare_option\"><span><strong><b>8月<span lang=\"EN-US\">11</span>日～8月16日<br /></b>10:30〜20:00<br /><br /></strong></span></span><span class=\" typesquare_option typesquare_option\"><span><strong><b><span lang=\"EN-US\">8</span></b><b>月<span lang=\"EN-US\">17</span>日～<br /></b></strong></span></span><span class=\" typesquare_option typesquare_option\"><span><strong>平日 10:30〜19:00<br />土日祝 10:30〜20:00</strong></span></span></p>\r\n<h6 class=\" typesquare_option typesquare_option\">■<span class=\" typesquare_option typesquare_option\">京都駅八条口店</span></h6>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">[時短営業] <br /></span><span class=\" typesquare_option typesquare_option\"><span><strong><b><span lang=\"EN-US\">8</span></b><b>月21日～8月31日<br /></b></strong></span></span><span class=\" typesquare_option typesquare_option\"><span><strong>平日 10:00〜19:00<br />土日祝 10:00〜20:00</strong></span></span></p>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\"><span><strong><b>9月1日～<br /></b></strong></span></span><span class=\" typesquare_option typesquare_option\"><span><strong>平日 10:00〜20:00<br />土日祝 10:00〜20:00</strong></span></span></p>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\"><span><strong><b></b></strong></span></span></p>\r\n<h6 class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">■東京スカイツリータウン・ソラマチ店</span></h6>\r\n<p><span class=\" typesquare_option typesquare_option\">[時短営業]<br /></span><strong><span class=\" typesquare_option typesquare_option\"></span></strong></p>\r\n<p><strong><span class=\" typesquare_option typesquare_option\"><br />平日・土日祝ともに 11:00〜23:00(L.O. 21:45）</span></strong></p>\r\n<p>※提供メニューを一部に限定しております。<br />※予告なく営業時間を変更する場合がございます。</p>\r\n<h6 class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">■大阪国際(伊丹)空港 旅・SORA店</span></h6>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">当面の営業時間は通常通り<span> </span><strong class=\" typesquare_option\">6:00〜20:00<br /><span class=\" typesquare_option\">当面の間一部テイクアウト商品は休止いたします。</span></strong></span></p>\r\n<h5 class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">―茶寮都路里</span></h5>\r\n<h6 class=\" typesquare_option typesquare_option\">■祇園本店</h6>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">[時短営業] </span><br /><span class=\" typesquare_option typesquare_option\"><span><strong></strong></span></span><span><span class=\" typesquare_option typesquare_option\"><strong><b>～8月10日<br /></b></strong></span></span><span><span class=\" typesquare_option typesquare_option\"><strong>平日 10:30〜19:00(L.O. 18:00)<br />土日祝 10:30〜20:00(L.O. 19:00)</strong></span></span></p>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\"><span><strong><b>8月<span lang=\"EN-US\">11</span>日～8月16日<br /></b>10:30〜20:00(L.O. 19:00)</strong></span></span></p>\r\n<p class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\"><span><strong><b><span lang=\"EN-US\">8</span></b><b>月<span lang=\"EN-US\">17</span>日～<br /></b></strong></span></span><span class=\" typesquare_option typesquare_option\"><span><strong>平日 10:30〜19:00(L.O. 18:00)<br />土日祝 10:30〜20:00(L.O. 19:00)</strong></span></span></p>\r\n<h6 class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option\"><strong><br /></strong></span><span class=\" typesquare_option typesquare_option\">■京都伊勢丹店</span></h6>\r\n<p class=\" typesquare_option typesquare_option\"><strong>平日・土日祝ともに <span class=\" typesquare_option typesquare_option\">10:00〜20:00(L.O. 19:30）<br /></span></strong></p>\r\n<p class=\" typesquare_option\"><b></b></p>\r\n<h6 class=\" typesquare_option typesquare_option\"><span class=\" typesquare_option typesquare_option\">■大丸東京店</span></h6>\r\n<p><strong>平日・土日祝ともに <span class=\" typesquare_option typesquare_option\">10:00〜20:00(L.O. 19:30）</span></strong></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/545fae7eb0d25e7cdc5835900303ed94d013f7f0.html",
+      "overview": "新型コロナウイルス感染症対策による、店舗の営業時間とご提供内容について(2022年8月21日現在)",
+      "linkText": "新型コロナウイルス感染症対策による、店舗の営業時間とご提供内容について(2022年8月21日現在)",
+      "url": "",
+      "isPinned": true,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2022-08-22 10:23"
+    },
+    {
+      "id": "001074",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "オンラインショップリニューアルのご案内",
+      "body": "<p>平素より、祇園辻利 茶寮都路里をご利用いただき、厚く御礼申し上げます。</p>\r\n<p>2022年9月1日に、祇園辻利公式オンラインショップをリニューアルオープンいたします。</p>\r\n<p>つきましては、8月31日12時から9月1日10時まで、切替作業に伴い、アクセスできない状況となりますことをご了承ください。</p>\r\n<p>一部、お取り扱いのない商品につきましては、お電話にてご注文を承っておりますので、引き続き、ご利用くださいますようお願い申し上げます。</p>\r\n<p>これからも、皆様により良い商品のご提供ができるよう、サービス向上にも努めて参りますので、変わらぬご愛顧を賜りますよう、謹んでお願い申し上げます。</p>\r\n<p></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/691483175c88ebc433c15d40819d4e9f33192516.html",
+      "overview": "オンラインショップリニューアルのご案内",
+      "linkText": "オンラインショップリニューアルのご案内",
+      "url": "",
+      "isPinned": true,
+      "ogp": "",
+      "keyword": "リニューアル",
+      "description": "",
+      "date": "2022-08-10 09:00"
+    },
+    {
+      "id": "001072",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "【重要】お客様各位 商品価格改定のお知らせ",
+      "body": "<p>平素より、祇園辻利 茶寮都路里をご利用いただき、厚く御礼申し上げます。</p>\r\n<p><br />この度は、昨今の原材料の高騰と原油高に伴う輸送費の高騰などに伴い、<br />2022年9月より一部商品の価格変更をさせていただくことを、お知らせいたします。</p>\r\n<p>弊社では、お客様により良い商品をご提供をできるよう、企業努力を続けて<br />参りましたが、先述する理由により、価格の維持が困難となりました。<br />大変心苦しいご案内ではございますが、日頃より当店をご利用いただいております</p>\r\n<p>皆様におかれましては、何卒ご理解くださいますようお願いいたします。</p>\r\n<p>これからも、皆様により良い商品のご提供ができるよう、サービス向上にも<br />努めて参りますので、変わらぬご愛顧を賜りますよう、謹んでお願い申し上げます。</p>\r\n<p></p>\r\n<p></p>\r\n<h4>1.価格改定の実施時期</h4>\r\n<p><br />　令和4年9月1日販売分（受注分）より</p>\r\n<h4><br />2.対象商品</h4>\r\n<p><br />　ティーバッグ各種、ほうじ茶の一部、グリーンティー、昆布茶など<br />　つじりの里など一部の抹茶菓子<br />　茶道具の一部<br />　喫茶メニューの一部</p>\r\n<p></p>\r\n<p>&lt;お問合せ先&gt;</p>\r\n<p><br />祇園辻利 本社075-525-1122 (平日10時~16時)</p>",
+      "image": "https://www.giontsujiri.co.jp/news_noimage.png",
+      "permalink": "https://www.giontsujiri.co.jp/news/e013d46071f46fe6864bca3694545bd17014b9f7.html",
+      "overview": "【重要】お客様各位 商品価格改定のお知らせ",
+      "linkText": "【重要】お客様各位 商品価格改定のお知らせ",
+      "url": "",
+      "isPinned": true,
+      "ogp": "",
+      "keyword": "価格改定",
+      "description": "",
+      "date": "2022-08-10 09:00"
+    },
+    {
+      "id": "000976",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "2021年～2022年 年末年始営業時間変更のお知らせ",
+      "body": "<p>いつも祇園辻利・茶寮都路里をごひいき賜りありがとうございます。<br />誠に勝手ながら、年末年始は営業時間を変更させていただきます。</p>\r\n<p>各店毎の営業時間は下記をご確認ください。<br />尚、コロナ感染防止対策により、予告なく変動する可能性がございます。<br />ご不便をおかけしますが、何卒ご理解のほどよろしくお願い申し上げます。<br />※未定や調整中の内容につきましては、決定次第更新いたしますが<br />　お急ぎの際は大変お手数ですが各店へお問合せください。</p>\r\n<h3>【祇園辻利 茶寮都路里 祇園本店】</h3>\r\n<p>　12/21(水)～30(木)　10:30～19:00(茶寮L.O.18:00）<br />　12/31(木)のみ 10:30～22:00(茶寮L.O.21:00）<br />　1/1(土)～3(月) 10:00～19:00(茶寮L.O.18:00）<br />　※1/4(月）以降は、下記の通りです。　<br />　10:30～19:00（茶寮L.O18:00）<br /><br /></p>\r\n<h3>【祇園辻利 京都駅八条口店】</h3>\r\n<p>　12/13(月)～12/31(金) 10:30～19:00<br />　1/1(土)～3(月) 10:00～20:00<br />　※1/4(月）以降は、下記の通りです。　<br />　10:30～19:00</p>\r\n<h3>【祇園辻利 東京スカイツリー・ソラマチ店】</h3>\r\n<p>　12/31(金)のみ 11:00～21:00(L.O.19:45）<br />　※通常は11:00～23:00（L.O.21:45)</p>\r\n<h3>【茶寮都路里 京都伊勢丹店】</h3>\r\n<p>　12/31(金)のみ 10:00～18:00(L.O.17:30）<br />　1/1(土) 休館日<br />　1/2(日) 9:30～20:00(L.O.19:30）<br />　※通常は10:00～20:00(L.O.19:30）</p>\r\n<p>【茶寮都路里 大丸東京店】</p>\r\n<p>　12/31(金)のみ 10:00～18:00(L.O.17:30）<br />　1/1(土) 休館日 <br />※1/2(日)以降は大丸東京店の営業時間に準ずる予定です</p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/8434367b739382ca96cde5593f5f648e93a6b6c1.html",
+      "overview": "2021年～2022年 年末年始営業時間変更のお知らせ",
+      "linkText": "2021年～2022年 年末年始営業時間変更のお知らせ",
+      "url": "",
+      "isPinned": true,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2021-12-13 12:13"
+    },
+
+    {
+      "id": "000987",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "祇園辻利 本店リニューアル工事のお知らせ",
+      "body": "<p class=\" typesquare_option\">この度、祇園辻利本店(1F物販)は、リニューアル工事のため、下記の期間休業致します。<br />ご迷惑をお掛けいたしますがなにどぞご容赦ください。</p>\r\n<p class=\" typesquare_option\">●リニューアル工事期間<br />　<span class=\" typesquare_option\"><strong class=\" typesquare_option\">2022年1月17日(月)〜2月28日(月)</strong></span></p>\r\n<p class=\" typesquare_option\"><span class=\" typesquare_option\"><strong class=\" typesquare_option\">※2F、3Fの茶寮都路里（喫茶）は営業いたします。</strong></span></p>\r\n<p class=\" typesquare_option\">●祇園辻利本店（1F物販）の臨時店舗はこちらです。<br />（営業時間：11時～17時）</p>\r\n<p class=\" typesquare_option\"><img alt=\"臨時店舗mappu_sns用_修正.jpg\" src=\"https://www.giontsujiri.co.jp/8d60f0cbb08deeff383e653d5add2a9bb54985c2.jpg\" width=\"315\" height=\"311\" class=\"mt-image-none\" /></p>\r\n<p class=\" typesquare_option\">3月1日(火)よりリニューアルオープンいたします。<br />新しくなった本店も引き続きよろしくお願い申し上げます。</p>",
+      "image": "https://www.giontsujiri.co.jp/dc1088070f7bedabe0209ca30db7f6ce2a12832b.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/dc6f3c963afb35a3b84d2ea856f7100f342f0231.html",
+      "overview": "<p>祇園辻利 本店リニューアル工事のお知らせ</p>",
+      "linkText": "祇園辻利 本店リニューアル工事のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "祇園辻利 本店リニューアル工事のお知らせ",
+      "date": "2022-01-07 15:13"
+    },
+    {
+      "id": "000985",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "【重要】年末年始の通信販売と、年末配送の遅延につきまして",
+      "body": "<p><span>いつも祇園辻利をご利用くださいまして、誠にありがとうございます。</span><br /><span>2021～2022年の年末年始における、通信販売の配送やお問合せ対応、並びに年末配送の遅延につきまして、ご案内申し上げます。</span><span><br /></span></p>\r\n<h3><span>■お問合せ対応について</span></h3>\r\n<p>年内のお問い合わせ対応業務は2021年12月24日(金)までとさせていただきます。年始は2022年1月5日(水)より再開いたします。<br />ご迷惑をお掛け致しますが何卒ご了承くださいませ。</p>\r\n<h3><span>■配送について</span></h3>\r\n<h4><span>・12月24日(金)午前9時までのご注文→</span><span>年末年始のお届け（代金引換・クレジット決済・GMO後払いの場合）</span></h4>\r\n<p><span>※銀行振込・郵便振替の場合は、12月22日(水)までにご入金いただきましたご注文であれば、年末年始にお届けできますが、</span><span>それ以降のご注文は、すべて1月5日(水)以降に</span><span>ご入金確認次第順次出荷いたします。<br /></span><span>※全国的に宅配便の集中により配達遅延も予想されますのでお早めにご注文下さいませ。<br /></span><span>※一部商品は年内発送不可の場合がございます。</span><br /><span></span></p>\r\n<h4><br /><span>・12月25日(土)以降のご注文→</span><span>1月5日(水)以降順次出荷いたします。</span></h4>\r\n<p><span>※銀行振込・郵便振替の場合はすべて1月5日(水)以降にご入金確認次第順次出荷いたします。</span></p>\r\n<p><span></span></p>\r\n<h3><span>■大雪による遅延について</span></h3>\r\n<h4><span>ただいま、全国的な大雪の影響により、商品のお届けに遅延が生じております。</span><br /><span>下記にて、ヤマト運輸のお荷物の集配および宅急便センターの営業状況についてのURLを記載いたしますのでご確認ください。</span></h4>\r\n<p><a href=\"https://www.yamato-hd.co.jp/important/info_211224_2.html\"><span>https://www.yamato-hd.co.jp/important/info_211224_2.html</span></a></p>\r\n<p><span>お客さまにはご迷惑をお掛けいたしますが、何卒ご了承いただきますようお願い申し上げます。</span></p>\r\n<p><br /><span>ご不便をお掛け致しますが、何卒ご了承の程お願い申し上げます。</span></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/53ee49faeea22b58504c3ef154bd2b2925e1034a.html",
+      "overview": "<p>【重要】年末年始の通信販売について</p>",
+      "linkText": "【重要】年末年始の通信販売について",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2021-12-17 11:19"
+    },
+    {
+      "id": "000947",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "茶寮都路里高台寺店閉店のお知らせ",
+      "body": "<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">平素は格別なるお引き立てを賜りまして、誠に有難く厚く御礼申し上げます。</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">　</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">誠に勝手ながら茶寮都路里高台寺店は来る2021年9月19日(日)・20日（月・祝）の営業をもちまして閉店させていただくこととなりました。</span></div>\r\n<div></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">9月19日・20日の営業時間 11:00～17:00</span><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq s-lparen\"> </span><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq h-lparen\">(L.O.16:30)</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">　</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">お客様の長年に亘るご愛顧に心から御礼申し上げるとともに、突然の閉店でご迷惑をおかけすることをお詫び申し上げます。</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">　</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">閉店後は、下記店舗を引き続きご愛顧くださいますよう何卒よろしく お願い申し上げます。</span></div>\r\n<div></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">&lt;喫茶&gt;</span></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/saryotsujiri-honten/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">茶寮都路里 祇園本店</span></a></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/kyoto-isetan/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">茶寮都路里 京都伊勢丹店</span></a></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/tokyo-daimaru/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">茶寮都路里 大丸東京店</span></a></div>\r\n<div></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">&lt;物販&gt;</span></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/giontsujiri-honten/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">祇園辻利 祇園本店</span></a></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/hachijo-guchi/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">祇園辻利 京都駅八条口店</span></a></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/skytree/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">祇園辻利 東京スカイツリータウン・ソラマチ店</span></a></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\"></span></div>\r\n<div><a href=\"https://www.giontsujiri.co.jp/store/giontsujiri-tabisora/\"><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">大阪国際(伊丹)空港 旅・SORA店</span></a></div>\r\n<div></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">なお、高台寺店にてお渡ししておりました、つじりサービス券は、祇園本店・京都駅八条口店でお使いいただけます。（その他の店舗ではご利用いただけません。ご了承くださいませ。）</span></div>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/9e052dcb1c033147679b18a54e405fd32380eb9e.html",
+      "overview": "茶寮都路里高台寺店閉店のお知らせ",
+      "linkText": "茶寮都路里高台寺店閉店のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2021-09-16 18:48"
+    },
+    {
+      "id": "000875",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "令和３年新茶リーフレットにつきまして",
+      "body": "<p>お客様各位</p>\r\n<p></p>\r\n<p>平素よりご愛顧頂きまして誠にありがとうございます。</p>\r\n<p>今年度の新茶リーフレットにつきまして、一部記載に誤りがございましたので、</p>\r\n<p>訂正させていただきます。</p>\r\n<p></p>\r\n<p>▼記載ミス内容</p>\r\n<p></p>\r\n<p>特別送料期間について、令和３年のところ、令和２年と記載。</p>\r\n<p>(正) 特別送料期間　令和3年5月1日～31日</p>\r\n<p></p>\r\n<p>皆様にはご不便をおかけいたしまして、大変申し訳ございません。</p>\r\n<p>謹んでお詫び申し上げます。</p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/f4fd0c60152a5568233b891c723486ff42e2ee47.html",
+      "overview": "令和３年新茶リーフレットにつきまして",
+      "linkText": "令和３年新茶リーフレットにつきまして",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2021-04-12 09:18"
+    },
+    {
+      "id": "000859",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "電話受付時間変更のお知らせ",
+      "body": "<p><span>2021年2月1日（月）より当面の間、電話受付時間を平日10時00分から16時00分とさせていただきます。お客様にはたいへんご不便をおかけいたしますが、ご理解賜りますようお願い申し上げます。</span></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/5eb8c4a8d6145de1fa52c1d0b14056198524847c.html",
+      "overview": "2月1日から電話受付時間変更のお知らせ",
+      "linkText": "電話受付時間変更のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2021-01-27 16:28"
+    },
+    {
+      "id": "000852",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "新プロジェクトのご案内",
+      "body": "<p>祇園辻利は、クリエイティブチーム「MATTEA」とともに、完全受注生産による“大理石抹茶碗セット”と“大理石グラス＆ボトリングティセット”を、クラウドファンディング方式にて受付開始しました。<br />2020年12月25日（金）にスタートしたプロジェクトは、今後数百年先にも残る新しい形の茶道具として、これからの日本のお茶文化におけるニューノーマルを提案しています。<br />プロジェクトはサンプル作成まで進んでおり、今回集まった資金をベースに本格生産され、2021年3月ごろに完成、その後順次発送を予定しています。<br /><br />詳しくは、こちらをご覧ください。https://mattea-craft.com/jp</p>",
+      "image": "https://www.giontsujiri.co.jp/9102026bc9b6a51ad56a91e8ca68062c498cae05.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/f4b993d0e197c2dfc969984f432aeee8a3ce71bc.html",
+      "overview": "新プロジェクトのご案内",
+      "linkText": "100年先も色あせない茶の新様式を求めて",
+      "url": "https://mattea-craft.com/jp",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-12-28 13:50"
+    },
+    {
+      "id": "000848",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "【重要】年末年始営業時間変更のお知らせ",
+      "body": "<p>いつも祇園辻利・茶寮都路里をごひいき賜りありがとうございます。<br />誠に勝手ながら、年末年始は営業時間を変更させていただきます。</p>\r\n<p>各店毎の営業時間は下記をご確認ください。<br />尚、コロナ感染防止対策により、変動する可能性がございます。<br />ご不便をおかけしますが、何卒ご理解のほどよろしくお願い申し上げます。<br />※未定や調整中の内容につきましては、決定次第更新いたしますが<br />　お急ぎの際は大変お手数ですが各店へお問合せください。</p>\r\n<p>【祇園辻利 茶寮都路里 祇園本店】<br />　12/26(土)～30(水)　10:30～19:00(茶寮L.O.18:00）<br />　12/31(木)のみ 10:30～22:00(茶寮L.O.21:00）<br />　1/1(金)～3(日) 10:30～19:00(茶寮L.O.18:00）<br />　※1/4(月）以降は、下記の通りです。　<br />　　平日　11:00～18:00（茶寮L.O17:00）<br />　　土日祝10:30～19:00（茶寮L.O.18:00）</p>\r\n<p>【祇園辻利 京都駅八条口店】<br />　12/31(木)～1/3(日) 11:00～20:00<br />　※1/4(月）以降は、下記の通りです。　<br />　　平日　11:00～19:00<br />　　土日祝11:00～20:00</p>\r\n<p>【祇園辻利 東京スカイツリー・ソラマチ店】<br />　12/31(木)のみ 11:00～21:00(L.O.20:00）<br />　※通常は11:00～22:00（L.O.21:00)</p>\r\n<p>【茶寮都路里 京都伊勢丹店】<br />　12/31(木)のみ 10:00～18:00(L.O.17:30）<br />　1/1(金) 休館日<br />　1/2(土) 9:30～20:00(L.O.19:30）<br />　※通常は10:00～20:00(L.O.19:30）</p>\r\n<p>【茶寮都路里 高台寺店】<br />　12/29(火)～1/3(日) 11:00～17:30(L.O.17:00）<br />　※1/31(木）は営業しております。<br />　※通常は11:00～16:30(L.O.16:00）<br />　　</p>\r\n<p>【茶寮都路里 大丸東京店】<br />　※大丸東京店の営業時間に準ずる予定です</p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/9eb53cb4574f7b6201d13f87ac8648fed965ec7b.html",
+      "overview": "<p>【重要】年末年始営業時間変更のお知らせ</p>",
+      "linkText": "【重要】年末年始営業時間変更のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-12-10 17:29"
+    },
+    {
+      "id": "000847",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "【重要】年末年始の通信販売について",
+      "body": "<p><span>いつも祇園辻利をご利用くださいまして、誠にありがとうございます。</span><br /><span>2020～2021年の年末年始における、通信販売の配送やお問合せ対応につきまして、ご案内申し上げます。</span><span><br /></span></p>\r\n<h3><span>■お問合せ対応について</span></h3>\r\n<p>年内のお問い合わせ対応業務は2020年12月25日(金)までとさせていただきます。年始は2021年1月5日(水)より再開いたします。<br />ご迷惑をお掛け致しますが何卒ご了承くださいませ。</p>\r\n<h3><span>■配送について</span></h3>\r\n<h4><span>■<span style=\"color: #ff0000;\">12月25日(金)午前9時までのご注文→</span></span><span><span style=\"color: #ff0000;\">年末年始のお届け</span>（代金引換・クレジット決済・GMO後払いの場合）</span></h4>\r\n<p><span>※銀行振込・郵便振替の場合は、12月23日(水)までにご入金いただきましたご注文であれば、年末年始にお届けできますが、</span><span>それ以降のご注文は、すべて1月6日(水)以降に</span><span>ご入金確認次第順次出荷いたします。<br /></span><span>※全国的に宅配便の集中により配達遅延も予想されますのでお早めにご注文下さいませ。<br /></span><span>※一部商品は年内発送不可の場合がございます。</span><br /><span></span></p>\r\n<h4><br /><span>■<span style=\"color: #ff0000;\">12月26日(土)以降のご注文→</span></span><span><span style=\"color: #ff0000;\">1月6日(水)以降順次出荷</span>いたします。</span></h4>\r\n<p><span>※銀行振込・郵便振替の場合はすべて1月6日(月)以降にご入金確認次第順次出荷いたします。</span></p>\r\n<p><br /><span>ご不便をお掛け致しますが、何卒ご了承の程お願い申し上げます。</span></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/836967648eeb85a0c4e09fb87af51c85899f4546.html",
+      "overview": "【重要】年末年始の通信販売について",
+      "linkText": "【重要】年末年始の通信販売について",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-12-02 16:32"
+    },
+    {
+      "id": "000786",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "高台寺店休業日変更のお知らせ",
+      "body": "<p>高台寺店の休業日を下記の通り変更させていただきます。</p>\r\n<p>12月2日(水)：休業させていただきます。</p>\r\n<p>12月3日(木) ：営業いたします。</p>\r\n<p></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/12a768635c973c9ffd1832e91999816739a3fd96.html",
+      "overview": "高台寺店休業日変更のお知らせ",
+      "linkText": "高台寺店休業日変更のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-11-17 17:36"
+    },
+    {
+      "id": "000795",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "「碾茶ふりかけ」のパッケージ誤表記のお知らせ",
+      "body": "<p>平素は祇園辻利をごひいき賜りありがとうございます。</p>\r\n<p>この度、弊社店舗およびオンラインショップにて販売させて頂いております、「碾茶ふりかけ ぱっぱ」のパッケージ裏面のデザイン表記に下記の通り誤りがございました。</p>\r\n<p>なお、食品表示の原材料名表記には誤りはございません。</p>\r\n<p>お買い上げくださいましたお客様には、大変ご迷惑お掛けいたしました事、深くお詫び申しあげます。</p>\r\n<h6>〈対象商品〉</h6>\r\n<p><strong>碾茶ふりかけ ぱっぱ</strong></p>\r\n<h6>〈誤表記内容〉</h6>\r\n<p>こだわり素材として「海苔」と「昆布」を表示しておりますが、<strong><span style=\"text-decoration: underline;\">本商品には「海苔」と「昆布」は使用されておりません。</span><br /><br /><br /></strong></p>\r\n<p>ご購入されたお客様で返品をご希望の方におかれましては、大変お手数をおかけいたしますが、お問い合わせフォームよりご連絡のほどお願い申し上げます。</p>\r\n<p>今後、さらに品質管理並びに表記内容確認を徹底し、再発防止に努めて参りますので、何卒、変わらぬご愛顧のほどよろしくお願い申し上げます。</p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/1151370a01b5bde0fb84ac7272389432b0286c3c.html",
+      "overview": "<p>「碾茶ふりかけ」のパッケージ誤表記のお知らせ</p>",
+      "linkText": "「碾茶ふりかけ」のパッケージ誤表記のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-09-12 14:24"
+    },
+    {
+      "id": "000791",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "高台寺店休業日変更のお知らせ",
+      "body": "<p>高台寺店の休業日を下記の通り変更させていただきます。</p>\r\n<p>9月2日(水)：休業させていただきます。</p>\r\n<p>9月3日(木)：営業いたします。</p>\r\n<p></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/433371e3bda01daa28dbe107f5a4c5ac099a6644.html",
+      "overview": "高台寺店休業日変更のお知らせ",
+      "linkText": "高台寺店休業日変更のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-08-17 16:28"
+    },
+    {
+      "id": "000790",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "大阪国際空港（伊丹空港） 北ターミナル2階「旅・SORA」内に、祇園辻利が8月5日(水)オープンしました。",
+      "body": "<p>大阪国際空港（伊丹空港） 北ターミナル2階「旅・SORA」内に、祇園辻利が8月5日(水)オープンしました。</p>",
+      "image": "https://www.giontsujiri.co.jp/763342765346942e2170879b5cbee89b90063930.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/5d1f0ddd6afcecfa8601def278a8d5319eef378e.html",
+      "overview": "大阪国際空港（伊丹空港） 北ターミナル2階「旅・SORA」内に、祇園辻利が8月5日(水)オープンしました。",
+      "linkText": "大阪国際空港（伊丹空港） 北ターミナル2階「旅・SORA」内に、祇園辻利が8月5日(水)オープンしました。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000182.000011317.html",
+      "isPinned": false,
+      "ogp": "https://www.giontsujiri.co.jp/d11317-182-226470-2.jpg",
+      "keyword": "",
+      "description": "",
+      "date": "2020-08-05 09:58"
+    },
+    {
+      "id": "000777",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "オンラインショップ限定のお取り寄せスイーツ第二弾「抹茶レアチーズケーキプレミアム」の販売を開始しました",
+      "body": "<p><a href=\"https://www.giontsujiri.co.jp/1ccea1d08b80d2b4a8e68943b28c45f0454776be.jpg\"><img alt=\"レアチーズケーキ_img_スクエア.jpg\" src=\"https://www.giontsujiri.co.jp/assets_c/2020/07/1ccea1d08b80d2b4a8e68943b28c45f0454776be-thumb-400xauto-755.jpg\" width=\"400\" height=\"400\" class=\"mt-image-center\" style=\"text-align: center; display: block; margin: 0 auto 20px;\" /></a></p>\r\n<p><span>抹茶テリーヌに続く、祇園辻利のプレミアムシリーズ第二弾は、口の中に広がる旨みと渋み抹茶の奥深い風味に、稀少な柚子の爽やかさがコントラストが織りなす至高のレアチーズケーキ。</span><br /><br /><span>祇園辻利自慢の石臼挽き宇治抹茶はもちろん、京都水尾の実生栽培柚子、北海道十勝産の良質な生乳からつくられた高品質なクリームチーズを使用し、コクのある味わいと酸味のバランスを追求しました。</span><br /><br /><span>夏だけの特別な一品。公式オンラインショップ(</span><a href=\"https://www.giontsujiri.co.jp/shop/\" target=\"_blank\" rel=\"nofollow ugc noopener noreferrer\">https://www.giontsujiri.co.jp/shop/</a><span>)限定販売です。</span></p>",
+      "image": "https://www.giontsujiri.co.jp/1ccea1d08b80d2b4a8e68943b28c45f0454776be.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/c516090d3fbbd82dc32c3a644a40f56df6585486.html",
+      "overview": "オンラインショップ限定のお取り寄せスイーツ第二弾「抹茶レアチーズケーキプレミアム」の販売を開始しました。",
+      "linkText": "オンラインショップ限定のお取り寄せスイーツ第二弾「抹茶レアチーズケーキプレミアム」の販売を開始しました。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000173.000011317.html",
+      "isPinned": false,
+      "ogp": "https://www.giontsujiri.co.jp/1ccea1d08b80d2b4a8e68943b28c45f0454776be.jpg",
+      "keyword": "",
+      "description": "",
+      "date": "2020-07-01 15:04"
+    },
+    {
+      "id": "000748",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "新型コロナウイルス感染症に関する弊社の取り組みとお客様へのお願いについて",
+      "body": "<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">平素より祇園辻利・茶寮都路里をご贔屓賜りまして、厚く御礼申し上げます。</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">新型コロナウイルス感染症に罹患された皆さま、および関係者の皆さまに、謹んでお見舞い申し上げます。</span></div>\r\n<div></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">祇園辻利・茶寮都路里では、店舗の営業再開に際し、お客様及び従業員の感染リスクを軽減し、お客様が安心してお買い物やお食事をお楽しみいただけるよう、以下の対策を実施いたします。</span></div>\r\n<div><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">お客様にはご不便をおかけすることもございますが、ご理解、ご協力の程よろしくお願い申し上げます。</span></div>\r\n<div></div>\r\n<h2><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">■衛生面に関して</span></h2>\r\n<ul>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">マスクやフェイスシールドを着用して接客いたします。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">出勤前に体温測定、自覚症状の確認・記録を行います。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">手洗い・消毒スプレーによる手指消毒の徹底します。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">店舗内を定期的に消毒します。また、茶寮では、テーブル、椅子、メニュー等の消毒を都度行います。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">茶寮では、店内の座席数を減らして営業いたします。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">店内はサーキュレーターの使用や窓を開けるなどして常時換気を行います。</span></li>\r\n</ul>\r\n<div></div>\r\n<h2><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">■お客様へのご協力のお願い</span></h2>\r\n<ul>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">店内ではお食事の際を除き、マスク着用をお願いいたします。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">入店時の手指の消毒にご協力ください。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">店内では間隔を開けてお待ちください。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">茶寮満席時に、店頭で並んでお待ち頂くことはご遠慮ください。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">茶寮でのお会計の際は、レジ混雑解除のためテーブル毎に代表のお一人様がまとめて頂きますようご協力をお願いいたします。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">体調不良の方、発熱や咳のある方は入店をご遠慮ください。</span></li>\r\n</ul>\r\n<div></div>\r\n<h2><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">■サービスに関して</span></h2>\r\n<ul>\r\n<li><span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qoxwyz70zpz82zoz83znz83ztz68zz74zz79zfz76zaz80zz80zz84zkz81zgctz122zcz73zh2z75zk\">一部の店舗で営業時間を短縮する場合があります。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">提供メニューを</span><span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qoxwyz70zpz82zoz83znz83ztz68zz74zz79zfz76zaz80zz80zz84zkz81zgctz122zcz73zh2z75zk\">一部厳選し</span><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">て営業いたします。</span></li>\r\n<li><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">試飲・試食は、一部の商品のみお申し出があった場合に限らせて頂きます。</span></li>\r\n<li><span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qoxwyz70zpz82zoz83znz83ztz68zz74zz79zfz76zaz80zz80zz84zkz81zgctz122zcz73zh2z75zk\">直接お渡しする商品の提供、金銭授受の方法を変更させていただきます。</span></li>\r\n<li><span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qoxwyz70zpz82zoz83znz83ztz68zz74zz79zfz76zaz80zz80zz84zkz81zgctz122zcz73zh2z75zk\">テイクアウトメニューのご提供にあたり、蓋付きのカップや袋入りのスプーンなどを使用します。</span></li>\r\n</ul>\r\n<div>\r\n<p><span class=\" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z94z82zz76zvtsz85zvmz77zz77ztr23hz76zc8iz82zz79z82u1z86zqsq\">これからも、良質な宇治茶と安心安全なサービスの提供に努めてまいります。引き続き、政府の方針や日々刻々と変わっていく状況に応じて、オペレーションを改善し、お客様をおもてなしして参ります。</span></p>\r\n</div>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/130ab831373264a9f8dfac0f8d2452a42cff84d0.html",
+      "overview": "新型コロナウイルス感染症に関する弊社の取り組みとお客様へのお願いについて",
+      "linkText": "新型コロナウイルス感染症に関する弊社の取り組みとお客様へのお願いについて",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-05-21 17:04"
+    },
+    {
+      "id": "000722",
+      "shop": {
+        "basename": "hachijo-guchi",
+        "name": "八条口店",
+        "parentBasename": "giontsujiri",
+        "parentName": "祇園辻利"
+      },
+      "title": "祇園辻利 京都駅八条口店リニューアル工事のお知らせ",
+      "body": "<p>この度、祇園辻利京都駅八条口店は、リニューアル工事のため、下記の期間休業致します。<br />ご迷惑をお掛けいたしますがなにどぞご容赦ください。</p>\r\n<p>●リニューアル工事期間<br />　<span style=\"color: #ff0000;\"><strong>2020年2月25日(火)〜3月15日(日)</strong></span></p>\r\n<p>※準備のため、<span style=\"color: #ff0000;\">2月24日(月)は20時に閉店</span>させて頂きます。</p>\r\n<p>3月16日(月)よりリニューアルオープンいたします。<br />新しくなった八条口店も引き続きよろしくお願い申し上げます。</p>\r\n<p></p>\r\n<p><a href=\"https://www.giontsujiri.co.jp/d4c05918cb1e602bea29107565fbcf5c09aa6df8.jpg\"><img alt=\"hachijoguchi_exterior.jpg\" src=\"https://www.giontsujiri.co.jp/assets_c/2020/02/d4c05918cb1e602bea29107565fbcf5c09aa6df8-thumb-300xauto-696.jpg\" width=\"300\" height=\"212\" class=\"mt-image-center\" style=\"text-align: center; display: block; margin: 0 auto 20px;\" /></a></p>\r\n<p></p>",
+      "image": "https://www.giontsujiri.co.jp/d4c05918cb1e602bea29107565fbcf5c09aa6df8.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/5a7bc5372fc68db1e96406ca7026192f89e727e6.html",
+      "overview": "祇園辻利 京都駅八条口店リニューアル工事のお知らせ",
+      "linkText": "祇園辻利 京都駅八条口店リニューアル工事のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-02-24 14:01"
+    },
+    {
+      "id": "000715",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "2月6日(木)祇園本店臨時休業、八条口店営業時間変更のお知らせ。",
+      "body": "<p>来る2020年2月6日(木)は、メンテナンスのため、</p>\r\n<ul>\r\n<li>祇園辻利 祇園本店</li>\r\n<li>茶寮都路里 祇園本店</li>\r\n</ul>\r\n<p>は臨時休業させて頂きます。</p>\r\n<p>（茶寮都路里 高台寺店は、木曜日のため定休日です。）</p>\r\n<p></p>\r\n<p>また、</p>\r\n<ul>\r\n<li>祇園辻利 京都駅八条口店</li>\r\n</ul>\r\n<p>は、19:00閉店とさせて頂きます。</p>\r\n<p>大変ご迷惑をお掛けいたしますが何卒ご了承下さいますようお願い申し上げます。</p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/c75ef9a2a5666ba2e1137e17a30e7b5c0f9e7f9b.html",
+      "overview": "2月6日(木)祇園本店臨時休業、八条口店営業時間変更のお知らせ。",
+      "linkText": "2月6日(木)祇園本店臨時休業、八条口店営業時間変更のお知らせ。",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-02-01 09:20"
+    },
+    {
+      "id": "000711",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "空くじなしの大抽選会「吉例 大感謝祭」1月13〜15日 本店・高台寺店で開催",
+      "body": "<p>今年も、1月13日（祝）〜15日の３日間、祇園辻利本店にて、空くじなしの大抽選会「吉例 大感謝祭」を開催いたします。</p>\r\n<p>「祇園辻利 祇園本店」または、「茶寮都路里 祇園本店」「茶寮都路里 高台寺店」で、お買い上げ・お召し上がり税込1,620円毎に1回抽選！喫茶でのお召し上がりと、物販でのお買い上げの合算でも構いません。</p>\r\n<p>抽選会場は、「祇園辻利 祇園本店」です。高台寺店をご利用の方は、ご足労をおかけしますが、抽選券をお渡しいたしますので、本店までお越し下さい。</p>\r\n<p>一年間の感謝を込め、豪華景品を多数取り揃え皆さまのご来店をお待ち申し上げております！</p>\r\n<p><a href=\"https://www.giontsujiri.co.jp/2020_kanshasai_flyer.jpg\"><img alt=\"2020_kanshasai_flyer.jpg\" src=\"https://www.giontsujiri.co.jp/assets_c/2020/01/2020_kanshasai_flyer-thumb-autox565-678.jpg\" width=\"400\" height=\"565\" class=\"mt-image-center\" style=\"text-align: center; display: block; margin: 0 auto 20px;\" /></a></p>\r\n<p></p>\r\n<p></p>\r\n<p></p>\r\n<h3></h3>",
+      "image": "https://www.giontsujiri.co.jp/2020_kanshasai_flyer.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/2c58a82d60144157cf4b98a069589a39b153fef7.html",
+      "overview": "空くじなしの大抽選会「吉例 大感謝祭」1月13〜15日 本店・高台寺店で開催",
+      "linkText": "空くじなしの大抽選会「吉例 大感謝祭」1月13〜15日 本店・高台寺店で開催",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2020-01-10 19:00"
+    },
+    {
+      "id": "000671",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "年末年始営業時間変更のお知らせ",
+      "body": "<p>いつも祇園辻利・茶寮都路里をごひいき賜りありがとうございます。</p>\r\n<p>誠に勝手ながら、年末年始は営業時間を変更させていただきます。</p>\r\n<p>各店毎の営業時間は下記をご確認ください。<br />ご不便をおかけしますが、何卒ご理解のほどよろしくお願い申し上げます。</p>\r\n<p>※2019/12/23更新 大丸店1/2の開店時間が9:30に変更されました。</p>\r\n<p></p>\r\n<p><a href=\"https://www.giontsujiri.co.jp/schedule2019to2020.jpg\"><img alt=\"schedule2019to2020.jpg\" src=\"https://www.giontsujiri.co.jp/assets_c/2019/12/schedule2019to2020-thumb-autox594-655.jpg\" width=\"400\" height=\"594\" class=\"mt-image-center\" style=\"text-align: center; display: block; margin: 0 auto 20px;\" /></a></p>\r\n<p></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/e6a25c054cd29f6e62761776c9f8d0db28df1411.html",
+      "overview": "<p>年末年始営業時間変更のお知らせ</p>",
+      "linkText": "年末年始営業時間変更のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2019-12-23 14:25"
+    },
+    {
+      "id": "000680",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "【重要】年末年始のEC発送について【発送は年明け6日（月）以降です】",
+      "body": "<p><span>いつも祇園辻利をご利用くださいまして、誠にありがとうございます。</span><br /><br /><span>2019～2020年の年末年始の弊社通信販売の配送は下記の通りです。</span><br /><span>年内のお届けは<span style=\"color: #ff0000;\">12月26日までのご注文が最終</span>です。<span style=\"color: #ff0000;\">（※代引・クレジット・GMO後払いのみ）<br /></span></span><span>12月27日以降は1月6日以降順次出荷いたします。</span><br /><span>何卒ご了承くださいませ。<br />※銀行振込・郵便振替の場合はすべて1月6日(月)以降にご入金確認次第順次出荷いたします。<br /></span></p>\r\n<h3><span>■12月26日(木)までのご注文<br /></span><span>年内のお届け（代金引換・クレジット決済・GMO後払いの場合）</span></h3>\r\n<p><span>※銀行振込・郵便振替の場合はすべて1月6日(月)以降に</span><span>ご入金確認次第順次出荷いたします。<br /></span><span>※全国的に宅配便の集中により配達遅延も予想されますのでお早めにご注文下さいませ。<br /></span><span>※一部商品は年内発送不可の場合がございます。</span><br /><span></span></p>\r\n<h3><br /><span>■12月27日(金)以降のご注文</span><br /><span>1月6日(月)以降<span style=\"color: #ff0000;\">順次</span>出荷いたします。</span></h3>\r\n<p><span style=\"color: #ff0000;\">※銀行振込・郵便振替の場合はすべて1月6日(月)以降にご入金確認次第順次出荷いたします。</span></p>\r\n<p><br /><span>ご不便をお掛け致しますが、何卒ご了承の程お願い申し上げます。</span></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/690e9bac377004f4e103a017fd51817fac752800.html",
+      "overview": "【重要】年末年始のEC発送について【発送は年明け6日（月）以降です】",
+      "linkText": "【重要】年末年始のEC発送について【発送は年明け6日（月）以降です】",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2019-12-19 15:53"
+    },
+    {
+      "id": "000659",
+      "shop": {
+        "basename": "group",
+        "name": "祇園つじりグループ",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "公式ブランドサイトリニューアルしました。",
+      "body": "<p></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/renewal-2019.html",
+      "overview": "公式ブランドサイトリニューアルしました。",
+      "linkText": "公式ブランドサイトリニューアルしました。",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2019-11-08 09:00"
+    },
+    {
+      "id": "000657",
+      "shop": {
+        "basename": "saryotsujiri",
+        "name": "茶寮都路里",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "秋本番！秋の食材とお茶の味わいを堪能する紅葉シーズンにぴったりの限定パフェ、茶寮都路里本店と伊勢丹店で登場！",
+      "body": "<p><span><a href=\"https://prtimes.jp/main/html/rd/p/000000162.000011317.html\">https://prtimes.jp/main/html/rd/p/000000162.000011317.html</a></span></p>",
+      "image": "https://www.giontsujiri.co.jp/987fc41aa2048cb00f1227eba5af86f2d5ca39d0.jpg",
+      "permalink": "https://www.giontsujiri.co.jp/news/5ed2c9c7c1791c2fa030a8efd26f8bc5853ed9d6.html",
+      "overview": "秋本番！秋の食材とお茶の味わいを堪能する紅葉シーズンにぴったりの限定パフェ、茶寮都路里本店と伊勢丹店で登場！",
+      "linkText": "秋本番！秋の食材とお茶の味わいを堪能する紅葉シーズンにぴったりの限定パフェ、茶寮都路里本店と伊勢丹店で登場！",
+      "url": "",
+      "isPinned": false,
+      "ogp": "https://www.giontsujiri.co.jp/20191101_1.jpg",
+      "keyword": "",
+      "description": "",
+      "date": "2019-11-01 12:56"
+    },
+    {
+      "id": "000656",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "茶道速水流 速水宗燕御家元お好み抹茶発売のお知らせ",
+      "body": "<p><span>この度、茶道速水流 速水宗燕御家元様より御好みの御茶銘を拝受いたしました。</span></p>\r\n<p><span>・御濃茶　清鐘之昔 （せいしょうのむかし）<br /></span><span>・御薄茶　玉帛之白（ぎょくはくのしろ）</span></p>\r\n<p><span>何卒お初釜にご使用賜りますようご案内申し上げます。</span></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/edfb7c2ac191b46fffa56372b58365bd5c6dafd4.html",
+      "overview": "茶道速水流 速水宗燕御家元様より御好みの御茶銘を拝受いたしました。",
+      "linkText": "茶道速水流 速水宗燕御家元お好み抹茶発売のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2019-11-01 12:54"
+    },
+    {
+      "id": "000655",
+      "shop": {
+        "basename": "giontsujiri",
+        "name": "祇園辻利",
+        "parentBasename": "",
+        "parentName": ""
+      },
+      "title": "表千家不審菴 猶有斎御家元御好み抹茶発売のお知らせ",
+      "body": "<p><span>この度、表千家不審菴 猶有斎御家元様より御好みの御茶銘を拝受いたしました。 </span></p>\r\n<p><span>・御濃茶　栢樹の昔 （はくじゅのむかし）<br />・御薄茶　大雄の白（だいゆうのしろ）</span></p>\r\n<p><span>何卒炉開き、お初釜にご使用賜りますようご案内申し上げます。</span></p>",
+      "image": "",
+      "permalink": "https://www.giontsujiri.co.jp/news/d1cd9d0ea0a7ff8239cc608a4a97866c1341e487.html",
+      "overview": "表千家不審菴 猶有斎御家元様より御好みの御茶銘を拝受いたしました。 ",
+      "linkText": "表千家不審菴 猶有斎御家元御好み抹茶発売のお知らせ",
+      "url": "",
+      "isPinned": false,
+      "ogp": "",
+      "keyword": "",
+      "description": "",
+      "date": "2019-10-10 12:49"
+    }
+  ]
+}
