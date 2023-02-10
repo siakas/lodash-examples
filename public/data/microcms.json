@@ -1,0 +1,1168 @@
+{
+  "blogs": {
+    "contents": [
+      {
+        "id": "create-table-of-contents",
+        "createdAt": "2023-02-09T05:54:08.996Z",
+        "updatedAt": "2023-02-09T05:54:08.996Z",
+        "publishedAt": "2023-02-09T05:54:08.996Z",
+        "revisedAt": "2023-02-09T05:54:08.996Z",
+        "title": "microCMSで目次を作成する",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          },
+          {
+            "id": "javascript",
+            "createdAt": "2023-02-07T02:40:01.749Z",
+            "updatedAt": "2023-02-07T02:40:01.749Z",
+            "publishedAt": "2023-02-07T02:40:01.749Z",
+            "revisedAt": "2023-02-07T02:40:01.749Z",
+            "name": "JavaScript"
+          },
+          {
+            "id": "typescript",
+            "createdAt": "2023-02-07T02:39:02.460Z",
+            "updatedAt": "2023-02-07T02:39:02.460Z",
+            "publishedAt": "2023-02-07T02:39:02.460Z",
+            "revisedAt": "2023-02-07T02:39:02.460Z",
+            "name": "TypeScript"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p>こんにちは、柴田です。<br>「目次って作れますか？」というお問い合わせをちょくちょくいただくので、作ってみた系の記事を書いてみたいと思います。<br><br>本microCMSブログにもいつの間にかに目次が付いたのに気付きましたか？<br>地味にちょっとずつ改良を続けております。</p><h1 id=\"h7e213feb44\">目次の作り方</h1><p>一般的に、目次は記事の本文から見出しを抜き出して作成します。<br>よって、microCMSにおいてはリッチエディタで作成したHTMLを構文解析し、見出しタグを抜き出せばOKです。<br><br>具体的にどうやるのか見ていきましょう。<br></p><h2 id=\"hd4c490114d\">目次機能のオンオフ</h2><p>目次を実装してみたのは良いけど、目次を表示するほどでもないなぁという記事もありますよね。<br>そんな時のために簡単に目次機能をオン／オフできる機能を用意しましょう。<br><br>API設定 &gt; APIスキーマから以下のようにBooleanフィールドを用意します。<br></p><h1 id=\"h9be0c3393d\">おわりに</h1><p>今回はmicroCMSを使って目次を作成しました。<br>APIから受け取ったデータはクライアントサイドでいくらでも加工できるので、良い感じの使い方を見つけてみてください。</p>",
+        "description": "「目次って作れますか？」というお問い合わせをちょくちょくいただくので、作ってみた系の記事を書いてみたいと思います",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/ef96a6281ea14be390997ab308c648d5/post_18.webp",
+          "height": 352,
+          "width": 670
+        },
+        "writer": {
+          "id": "himorishige",
+          "createdAt": "2023-02-07T02:30:59.739Z",
+          "updatedAt": "2023-02-07T02:33:51.531Z",
+          "publishedAt": "2023-02-07T02:30:59.739Z",
+          "revisedAt": "2023-02-07T02:30:59.739Z",
+          "name": "森茂 洋",
+          "text": "Web制作、開発会社を経て2022年11月にmicroCMSにジョイン。きっとインターネット老人会に所属しています。インフラやWebに関わる技術の探訪が大好きで興味をもった技術は広く深く掘り下げていくことが信念。microCMSではフロントエンドテックリードとして開発チームのサポートを担当。趣味はサイクリングとアイスホッケー、そして甘いもの。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/823eaade5e8b47558f8948935a314c13/author_hiroshimorishige.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "conversation-design",
+            "createdAt": "2023-02-07T05:30:50.641Z",
+            "updatedAt": "2023-02-07T06:01:15.569Z",
+            "publishedAt": "2023-02-07T05:30:50.641Z",
+            "revisedAt": "2023-02-07T05:32:48.682Z",
+            "title": "microCMSの繰り返しフィールドを利用して対談風のデザインを作る",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "nextjs"
+              },
+              {
+                "id": "reactjs"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">はじめまして、先日microCMSにカスタマーエンジニアとして入社した下津曲です。</span><br><br><span style=\"color:#2b2c30\">Webメディアの記事や採用コンテンツにおいて、以下のような、</span><strong style=\"color:#2b2c30\">左右から吹き出しで人が話しているように見えるデザイン</strong><span style=\"color:#2b2c30\">にしたい場合があるかと思います。</span><br><br><span style=\"color:#2b2c30\">実際に、microCMSの導入をご検討されているお客様からも、このような見せ方はできるのか？といったご相談をいただくことがしばしばあります。</span><br><br><span style=\"color:#2b2c30\">例えば、以下はWebメディア「</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://r25.jp/article/698797563895033416\" target=\"_blank\" rel=\"noopener noreferrer\">新R25</a><span style=\"color:#2b2c30\">」の例です。</span><br><br>今回はWeb制作におけるTipsとして、microCMSの<a style=\"color:#331cbf\" href=\"https://document.microcms.io/manual/repeat-field\" target=\"_blank\" rel=\"noopener noreferrer\">繰り返しフィールド</a>を使って上記のようなデザインを作るのに便利なAPIスキーマを構築してみようと思います。<br></p><h2 id=\"hc7eb47b85b\">APIを作成し、スキーマを定義する</h2><p>今回は、簡単のためにサービスは作成済みと仮定して進めていきます。<br>API名は「対談コンテンツ」、エンドポイントは<code>interview</code>としました。なお、APIの型はリスト形式です。<br><br><span style=\"color:#2b2c30\">早速APIスキーマを定義していきます。</span><br><span style=\"color:#2b2c30\">まずは対談コンテンツのタイトルを以下のように定義しました。ひとまずこの状態で「作成」をし、対談の中身はのちに繰り返しフィールドを使って定義します。</span><br><br><span style=\"color:#2b2c30\">次に、メインの対談部分のスキーマを作ります。</span><br><span style=\"color:#2b2c30\">基本的な考え方として、以下のように</span><strong style=\"color:#2b2c30\">「本文（</strong><strong><code>normalText</code></strong><strong style=\"color:#2b2c30\">）」</strong><span style=\"color:#2b2c30\">と</span><strong style=\"color:#2b2c30\">「対談文（</strong><strong><code>talkText</code></strong><strong style=\"color:#2b2c30\">）」</strong><span style=\"color:#2b2c30\">をそれぞれカスタムフィールドとして作成し、繰り返しフィールドを用いてそれらを繰り返し入稿できるようにします。</span></p>",
+            "description": "microCMSの繰り返しフィールドを利用して、対談風のデザインを作ります",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/1904f3009f3e4902a0661508509bfd7e/post_02.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "hiro08gh"
+            },
+            "partner": null,
+            "related_blogs": []
+          }
+        ]
+      },
+      {
+        "id": "gulp-ejs-microcms",
+        "createdAt": "2023-02-09T05:52:17.495Z",
+        "updatedAt": "2023-02-09T05:52:17.495Z",
+        "publishedAt": "2023-02-09T05:52:17.495Z",
+        "revisedAt": "2023-02-09T05:52:17.495Z",
+        "title": "Gulp + EJS + microCMSでJamstackな構成を実現する",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [],
+        "toc_visible": false,
+        "body": "<p>こんにちは、柴田です。<br>今回はGulpを使ったJamstackのチュートリアルのご紹介です。<br>いつの間にかにGulpは4系になっていたんですね〜。（しばらく触っていなかったので久々でした）</p><h1 id=\"h2452f9c88c\">Gulpとは</h1><p>2015年あたりで一斉を風靡した<strong>タスクランナー</strong>というやつですね。<br>タスクを記述することで、scssをcssに変換したり、JavaScriptをminifyしたり、ブラウザをホットリロードさせたり色々できます。<br></p><h2 id=\"h701790e704\">EJSでHTMLを静的生成</h2><p>EJSというテンプレートエンジンをご存知でしょうか。<br>JSONをEJSテンプレートに渡すことで値を動的にセットできるので、ExpressなどNodeのフレームワークと組み合わせて使われることが多いです。<br><br><strong>GulpからEJSテンプレートにJSONを渡してHTMLを生成するという方式</strong>もあります。<br>その場合、大抵JSONファイルはローカルに置かれており、ファイルを直接読み込んでEJSに渡す形が多いのですが、これをヘッドレスCMS経由でやりたいというお話をいただきました。<br><br>それってビルド・デプロイまでちゃんと設定できれば、もはやJamstackじゃん！ということで早速サンプルを作ってみました。<br>ちなみにJamstackについては<a style=\"color:#331cbf\" href=\"https://microcms.io/blog/what-is-jamstack/\" target=\"_blank\" rel=\"noopener noreferrer\">こちらの記事</a>で詳しく説明しております。</p><h1 id=\"h0c8fa4812e\">処理の流れ</h1><p>ブログを作成する流れを考えてみましょう。<br>大枠はシンプルです。<br></p><ol><li>GulpからヘッドレスCMSのAPIを呼ぶ</li><li>レスポンスJSONをEJSテンプレートに渡し、HTMLを生成</li></ol><p><br>EJSテンプレートは以下のような階層になっています。</p>",
+        "description": "Gulpを使ったJamstackのチュートリアルのご紹介です",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/4cd02a7d01424528b8d7086b28052753/post_17.webp",
+          "height": 352,
+          "width": 670
+        },
+        "writer": {
+          "id": "marei",
+          "createdAt": "2023-02-07T05:51:49.128Z",
+          "updatedAt": "2023-02-07T05:51:49.128Z",
+          "publishedAt": "2023-02-07T05:51:49.128Z",
+          "revisedAt": "2023-02-07T05:51:49.128Z",
+          "name": "マライ・メントライン",
+          "text": "翻訳・通訳・エッセイスト。ドイツ北部キール出身。ドイツ公共放送日本支局プロデューサー勤務の傍ら、報道番組出演・協力、文芸批評、アニメ『銀河英雄伝説 Die Neue These 』のドイツ語監修など、ドイツ語・文化関係業務を幅広く手掛ける。\n本人による自身の肩書の定義は「ドイツ人」。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/5874ed9861394622832ce3c56c8871b2/author_marei.webp",
+            "height": 300,
+            "width": 300
+          }
+        },
+        "partner": null,
+        "related_blogs": []
+      },
+      {
+        "id": "create_markdown_blog",
+        "createdAt": "2023-02-09T05:50:16.454Z",
+        "updatedAt": "2023-02-09T13:10:45.609Z",
+        "publishedAt": "2023-02-09T05:50:16.454Z",
+        "revisedAt": "2023-02-09T13:10:45.609Z",
+        "title": "microCMSを使ってマークダウンで入力するブログを作る",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "javascript",
+            "createdAt": "2023-02-07T02:40:01.749Z",
+            "updatedAt": "2023-02-07T02:40:01.749Z",
+            "publishedAt": "2023-02-07T02:40:01.749Z",
+            "revisedAt": "2023-02-07T02:40:01.749Z",
+            "name": "JavaScript"
+          },
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<h2 id=\"h8d027c8ed3\">はじめに</h2><p>みなさまこんにちは、microCMSの松田です。<br>先日、microCMSに複数行のプレーンテキストを入力できる「テキストエリア」が<a style=\"color:#331cbf\" href=\"https://microcms.io/blog/textarea-has-come/\" target=\"_blank\" rel=\"noopener noreferrer\">追加されました</a>。<br><br>これによって様々なテキストが入稿できるようになりましたが、その一つとしてマークダウン形式があげられます。<br>マークダウンは特にエンジニアなどに人気の高い入力フォーマットで、GitHubやQiitaなど様々な場所で使われています。<br>そこで今日はmicroCMSを使ってマークダウンで入力する簡易的なブログを作成してみます。<br><br>※これより先、microCMSでアカウント登録とサービス作成が済んでいるものとします。登録ページは<a style=\"color:#331cbf\" href=\"https://microcms.io/\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a>から。<br></p><h2 id=\"ha6337009fa\">APIを用意する</h2><p>まずはブログのコンテンツ管理をするためのAPIをmicroCMSで作成しましょう。<br>今回は以下のような内容でAPIを作成します。</p><ul><li>API名：ブログ</li><li>エンドポイント：blogs</li><li>APIの型：リスト形式</li><li>APIスキーマ：テキストフィールド形式のタイトル(title)、テキストエリア形式の本文(content)</li></ul><p><br></p><h2 id=\"h9be0c3393d\">おわりに</h2><p>今回はmicroCMSを使ってマークダウンで入力できるブログを作成しました。<br>microCMSを使えば今回見たようにわずか数分でオリジナリティあふれるウェブサイトを準備することができます。<br>ぜひともご活用ください！</p>",
+        "description": "microCMSを使ってマークダウンで入力する簡易的なブログを作成してみます",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/8f3abbbc4673496385e3ed9341f4b850/post_16.webp",
+          "height": 351,
+          "width": 670
+        },
+        "writer": {
+          "id": "shoma2da",
+          "createdAt": "2023-02-07T02:34:53.027Z",
+          "updatedAt": "2023-02-07T02:34:53.027Z",
+          "publishedAt": "2023-02-07T02:34:53.027Z",
+          "revisedAt": "2023-02-07T02:34:53.027Z",
+          "name": "松田 承一",
+          "text": "株式会社microCMSの代表 / 家族＝👨‍👩‍👧 / ヤフー→大学教員など→現職 / 管理画面付きAPIがすぐに作れるmicroCMSというサービス作ってます。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/870a62fbedf64f7ca61993de2623da68/author_matsuda.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "conversation-design",
+            "createdAt": "2023-02-07T05:30:50.641Z",
+            "updatedAt": "2023-02-07T06:01:15.569Z",
+            "publishedAt": "2023-02-07T05:30:50.641Z",
+            "revisedAt": "2023-02-07T05:32:48.682Z",
+            "title": "microCMSの繰り返しフィールドを利用して対談風のデザインを作る",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "nextjs"
+              },
+              {
+                "id": "reactjs"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">はじめまして、先日microCMSにカスタマーエンジニアとして入社した下津曲です。</span><br><br><span style=\"color:#2b2c30\">Webメディアの記事や採用コンテンツにおいて、以下のような、</span><strong style=\"color:#2b2c30\">左右から吹き出しで人が話しているように見えるデザイン</strong><span style=\"color:#2b2c30\">にしたい場合があるかと思います。</span><br><br><span style=\"color:#2b2c30\">実際に、microCMSの導入をご検討されているお客様からも、このような見せ方はできるのか？といったご相談をいただくことがしばしばあります。</span><br><br><span style=\"color:#2b2c30\">例えば、以下はWebメディア「</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://r25.jp/article/698797563895033416\" target=\"_blank\" rel=\"noopener noreferrer\">新R25</a><span style=\"color:#2b2c30\">」の例です。</span><br><br>今回はWeb制作におけるTipsとして、microCMSの<a style=\"color:#331cbf\" href=\"https://document.microcms.io/manual/repeat-field\" target=\"_blank\" rel=\"noopener noreferrer\">繰り返しフィールド</a>を使って上記のようなデザインを作るのに便利なAPIスキーマを構築してみようと思います。<br></p><h2 id=\"hc7eb47b85b\">APIを作成し、スキーマを定義する</h2><p>今回は、簡単のためにサービスは作成済みと仮定して進めていきます。<br>API名は「対談コンテンツ」、エンドポイントは<code>interview</code>としました。なお、APIの型はリスト形式です。<br><br><span style=\"color:#2b2c30\">早速APIスキーマを定義していきます。</span><br><span style=\"color:#2b2c30\">まずは対談コンテンツのタイトルを以下のように定義しました。ひとまずこの状態で「作成」をし、対談の中身はのちに繰り返しフィールドを使って定義します。</span><br><br><span style=\"color:#2b2c30\">次に、メインの対談部分のスキーマを作ります。</span><br><span style=\"color:#2b2c30\">基本的な考え方として、以下のように</span><strong style=\"color:#2b2c30\">「本文（</strong><strong><code>normalText</code></strong><strong style=\"color:#2b2c30\">）」</strong><span style=\"color:#2b2c30\">と</span><strong style=\"color:#2b2c30\">「対談文（</strong><strong><code>talkText</code></strong><strong style=\"color:#2b2c30\">）」</strong><span style=\"color:#2b2c30\">をそれぞれカスタムフィールドとして作成し、繰り返しフィールドを用いてそれらを繰り返し入稿できるようにします。</span></p>",
+            "description": "microCMSの繰り返しフィールドを利用して、対談風のデザインを作ります",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/1904f3009f3e4902a0661508509bfd7e/post_02.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "hiro08gh"
+            },
+            "partner": null,
+            "related_blogs": []
+          }
+        ]
+      },
+      {
+        "id": "nuxt-cv-point",
+        "createdAt": "2023-02-09T05:48:00.244Z",
+        "updatedAt": "2023-02-09T05:48:00.244Z",
+        "publishedAt": "2023-02-09T05:48:00.244Z",
+        "revisedAt": "2023-02-09T05:48:00.244Z",
+        "title": "カスタムフィールドを使用してブログにCVエリアを追加しよう",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          },
+          {
+            "id": "jamstack",
+            "createdAt": "2023-02-07T02:40:34.625Z",
+            "updatedAt": "2023-02-07T02:40:34.625Z",
+            "publishedAt": "2023-02-07T02:40:34.625Z",
+            "revisedAt": "2023-02-07T02:40:34.625Z",
+            "name": "Jamstack"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p>こんにちは、しょうみゆです。<br><br>みなさんはmicroCMSのカスタムフィールドという機能をご存知でしょうか？<br>カスタムフィールドは、複数のフィールドを組み合わせたブロックのようなものです。要件に合わせて自由にフィールドを組み合わせたり、レイアウトを調整することができます。<br><br>このカスタムフィールドを使用して、ブログの記事詳細ページに資料ダウンロードや会員登録に繋げるためのブロック（以下CVエリアとします）を作成していきましょう。</p><h2 id=\"hd154c350ab\">完成イメージ</h2><p><br>会員登録と資料ダウンロードの要件に合わせて２パターンのデザインを用意しました。完成イメージは下記の通りです。<br>（microCMSブログで実際に使用しているので、ページ下部で確認してみてください！）<br></p><h3 id=\"hfd581addf8\">繰り返しフィールドとしてAPIに追加する</h3><p><br>作成したカスタムフィールドをAPIに追加しましょう。<br>今回は管理画面での見やすさを考慮して繰り返しフィールドとして追加します。<br><br>ブログのAPI設定 &gt; APIスキーマを開きます。<br><br>最下部にcv_pointという名前で繰り返しフィールドのスキーマを追加しました。<br>未入力の場合はデフォルトのCVポイントを表示させるので、必須項目はオフにしておきます。</p>",
+        "description": "カスタムフィールドを使用して、ブログの記事詳細ページに資料ダウンロードや会員登録に繋げるためのブロック（以下CVエリアとします）を作成していきましょう",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/c2b9ab8a891943b0b2be14fbdd3f07f8/post_15.webp",
+          "height": 352,
+          "width": 670
+        },
+        "writer": {
+          "id": "hiro08gh",
+          "createdAt": "2023-02-07T02:33:14.046Z",
+          "updatedAt": "2023-02-07T02:33:14.046Z",
+          "publishedAt": "2023-02-07T02:33:14.046Z",
+          "revisedAt": "2023-02-07T02:33:14.046Z",
+          "name": "かみむら",
+          "text": "フロントエンドエンジニア。テックブロガーでもあります。JAMstackアーキテクチャーやSPA（React、Vue）技術が好きです。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/b78a1d084202418ebc29de64f5ec8321/author_kamimura.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "microcms-nuxt-jamstack-blog",
+            "createdAt": "2023-02-07T06:52:53.156Z",
+            "updatedAt": "2023-02-07T06:52:53.156Z",
+            "publishedAt": "2023-02-07T06:52:53.156Z",
+            "revisedAt": "2023-02-07T06:52:53.156Z",
+            "title": "microCMS + NuxtでJamstackブログを作ってみよう",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "nextjs"
+              },
+              {
+                "id": "jamstack"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">以前、チャリティーカンファレンス沖縄 2020 vol.1 フロントエンド編で行なったmicroCMSワークショップの内容を記事にしました。</span><br><br>このワークショップでは、microCMSとNuxt.jsを組み合わせJamstackなブログを作成することができます。<br>当時の内容はNuxt v2.13に沿ったものでしたが、本記事では内容をアップデートし、v2.14にて説明を進めます。<br></p><h1 id=\"h97fc41ae77\">1. Nuxtプロジェクトを用意する</h1><p><br></p><pre><code>$ npx create-nuxt-app microcms-nuxt-jamstack-blog</code></pre><p>ここでは設定項目は以下のようにします。<br><br>下記のコマンドで開発環境が立ち上がります。<br></p><pre><code>$ cd microcms-nuxt-jamstack-blog\n$ npm run dev</code></pre><p><code>localhost:3000</code>&nbsp;にアクセスすると下記が表示されます。<br></p><h1 id=\"h995750e219\">3. ブログ一覧を表示する</h1><p>Nuxtでは&nbsp;<code>pages/</code>&nbsp;以下に作成したファイルに基づいて自動的にルーティングがされる仕組みになっています。</p><ul><li><code>pages/index.vue</code>&nbsp;→ 記事一覧</li><li><code>pages/about.vue</code>&nbsp;→ Aboutページ</li><li><code>pages/_slug/index.vue</code>&nbsp;→ 記事詳細</li></ul><p><br>記事詳細画面のように動的なページは&nbsp;<code>_slug</code>のようなディレクトリを間に挟む必要があります。（または&nbsp;<code>_slug.vue</code>でも良い）<br>URLからのパスに応じて&nbsp;<code>slug</code>という変数で値を受け取ることができます。<br><br>まずは一覧ページを用意していきます。<br><code>pages/index.vue</code>&nbsp;を次のように変更してみましょう。<br><br><span style=\"color:#2b2c30\">先ほどのソースコード内の</span><code>X-API-KEY</code><span style=\"color:#2b2c30\">のところに値をセットします。</span><br><span style=\"color:#2b2c30\">ここまで終えたところで、</span><code>localhost:3000</code><span style=\"color:#2b2c30\">にアクセスすると記事一覧が表示されているはずです。</span></p>",
+            "description": "ワークショップの内容を記事にしました。NuxtとmicroCMSを用いてJamstackなブログを作成してみましょう",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/31766d0199a2422b828160c5d99530fd/post_11.webp",
+              "height": 431,
+              "width": 820
+            },
+            "writer": {
+              "id": "hiro08gh"
+            },
+            "partner": null,
+            "related_blogs": [
+              {
+                "id": "microcms-multilingual-site"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "microcms-as-feature-flags",
+        "createdAt": "2023-02-09T05:46:31.139Z",
+        "updatedAt": "2023-02-09T13:11:18.949Z",
+        "publishedAt": "2023-02-09T05:46:31.139Z",
+        "revisedAt": "2023-02-09T13:11:18.949Z",
+        "title": "microCMSを使ったお手軽フィーチャーフラグ運用",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "javascript",
+            "createdAt": "2023-02-07T02:40:01.749Z",
+            "updatedAt": "2023-02-07T02:40:01.749Z",
+            "publishedAt": "2023-02-07T02:40:01.749Z",
+            "revisedAt": "2023-02-07T02:40:01.749Z",
+            "name": "JavaScript"
+          },
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p>こんにちは！microCMSの松田です。<br>今回はmicroCMSのコンテンツをフィーチャーフラグ（Feature Flag）として扱う方法をご紹介いたします。<br><br>microCMS自体の開発にもmicroCMSを多用しており、その中でも特に開発チームではフィーチャーフラグとして数多くの箇所で利用しています。</p><h1 id=\"hef83e8165a\">フィーチャーフラグとは</h1><p>そもそもフィーチャーフラグとは何でしょうか？<br><strong>フィーチャーフラグとはシステムの振る舞いを動的に切り替えられる開発手法の一つです。</strong><br><br>モバイルアプリではリリースタイミングに制約があることから以前より使われることが多かった手法ですが、それ以外のウェブ開発などの領域においてもFacebookやNetflixなどの巨大テック企業が実践していることもありここ数年で特に注目が集まる手法の一つです。<br><br>フィーチャフラグの最もシンプルな例として以下のような設定状況による挙動の変更が挙げられます。<br></p><h2 id=\"he071c20152\">フィーチャーフラグのメリット</h2><p>フィーチャフラグの大きなメリットの一つに本番環境におけるリスクを最小化できることがあげられます。<br>特に値を遠隔操作できるようなフィーチャーフラグの場合、本番環境において一部のユーザーのみに新機能を展開することや、何らかの問題があったときにリリースなしで即座にロールバックを実現可能です。<br><br>フィーチャーフラグに関する参考記事</p><ul><li><a style=\"color:#331cbf\" href=\"https://codezine.jp/article/detail/14114\" target=\"_blank\" rel=\"noopener noreferrer\">フィーチャーフラグ（Feature Flag）はなぜ必要なのか？</a></li><li><a style=\"color:#331cbf\" href=\"https://www.infoq.com/jp/news/2021/06/github-feature-flags/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHubがすばやく安全にリリースを行うためにどのようにフィーチャーフラグを利用しているか</a></li><li><a style=\"color:#331cbf\" href=\"https://cloudbees.techmatrix.jp/blog/feature-flags/\" target=\"_blank\" rel=\"noopener noreferrer\">フィーチャーフラグ入門</a></li></ul><p><br>このほか、書籍などでも数多く紹介されていますのでご興味のある方はぜひ詳しく調べてみてください。</p>",
+        "description": "フィーチャーフラグ（Feature Flag）として扱う方法をご紹介いたします",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/3589d4ece4574a78bd03a0d18fcadcfa/post_14.webp",
+          "height": 352,
+          "width": 670
+        },
+        "writer": {
+          "id": "shoma2da",
+          "createdAt": "2023-02-07T02:34:53.027Z",
+          "updatedAt": "2023-02-07T02:34:53.027Z",
+          "publishedAt": "2023-02-07T02:34:53.027Z",
+          "revisedAt": "2023-02-07T02:34:53.027Z",
+          "name": "松田 承一",
+          "text": "株式会社microCMSの代表 / 家族＝👨‍👩‍👧 / ヤフー→大学教員など→現職 / 管理画面付きAPIがすぐに作れるmicroCMSというサービス作ってます。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/870a62fbedf64f7ca61993de2623da68/author_matsuda.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "astro-preview",
+            "createdAt": "2023-02-07T06:04:01.300Z",
+            "updatedAt": "2023-02-07T06:06:32.443Z",
+            "publishedAt": "2023-02-07T06:04:01.300Z",
+            "revisedAt": "2023-02-07T06:04:01.300Z",
+            "title": "AstroとmicroCMSを使った画面プレビューを実装する",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "astro"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">この記事は&nbsp;</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://qiita.com/advent-calendar/2022/microcms\" target=\"_blank\" rel=\"noopener noreferrer\">microCMS Advent Calendar</a><span style=\"color:#2b2c30\">&nbsp;21日目の記事です。</span><br><br><span style=\"color:#2b2c30\">こんにちは、でぃーすけと申します。</span><br><span style=\"color:#2b2c30\">今回はWebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。</span><br></p><h1 id=\"h8d027c8ed3\">はじめに</h1><p>事前準備として以下の公式ブログを参考に「ブログサイト」を構築してください。<br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://blog.microcms.io/astro-microcms-introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.microcms.io/astro-microcms-introduction/</a><br><br>今回は上記で作成したブログサイトをベースに画面プレビューを実装していきます。</p><h1 id=\"hbe94ef2575\">実装の全体像</h1><p>今回作成したブログサイトはサーバーサイドでレンダリングする方式ではなく、静的サイトとしてレンダリングする方式をとっています。<br>そのため、ビルド時は画面プレビューしたいコンテンツの内容は不明であり、画面プレビューされたタイミングでコンテンツのデータを取得する必要があることがわかります。<br><br>もちろん画面プレビューが押されるたびに再ビルドしても良いですが、その度に数分待たなくてはいけないのはとても不便ですよね。<br><br>これらの理由からクライアントJavaScriptでmicroCMSにリクエストをしてデータを取得する形を取るのが良いでしょう。</p><h2 id=\"hee9caadc50\">microCMSの画面プレビュー機能</h2><p>microCMSが提供している画面プレビューの機能は、下書き中のコンテンツ画面からユーザーが設定したURLに遷移することです。<br>このURLを設定する際に、<strong>コンテンツIDとdraftKey(下書きコンテンツを取得するためのキー)</strong>を含めることができます。<br><br>つまり、https://sample.com/preview?contentId=aaa&amp;draftKey=bbb のようなページに遷移させて、URLクエリパラメータから必要な情報を取得するイメージです。<br></p><h1 id=\"h9dcc071ccd\">デプロイ</h1><p>この方法ですとホスティング先は特に縛りなく、どのサービスも利用できるかと思います。<br>前回の記事同様、ビルドは<code>npm run build</code>&nbsp;で行います。<br>ローカルで一度チェックする際は、<code>npm run preview</code>&nbsp;が便利です。（このコマンドは本番環境で動作するように設計されていないため、ホスティング先のベストプラクティスを別途調査ください）</p><h1 id=\"h3632c659e3\">プレビューの体験をさらに上げる</h1><p>ここまでで画面プレビューとしての最低限の実装は完了していますが、さらに便利にすることが可能です。<br>現状だとサイトに訪れた最初のタイミングしかリクエストが送られません。</p>",
+            "description": "WebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/fdc527d1a9f84cd5b17846f00c8182e3/post_05.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "shoma2da"
+            },
+            "partner": null,
+            "related_blogs": []
+          },
+          {
+            "id": "monthly-archive",
+            "createdAt": "2023-02-07T06:17:37.731Z",
+            "updatedAt": "2023-02-07T06:17:37.731Z",
+            "publishedAt": "2023-02-07T06:17:37.731Z",
+            "revisedAt": "2023-02-07T06:17:37.731Z",
+            "title": "Next.jsで月別アーカイブを実装してみよう",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "nextjs"
+              },
+              {
+                "id": "jamstack"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p>WordPressなどのCMSではよくみられる「月別アーカイブ」。<br>Jamstackなサイトではどのように実装するのが良いでしょうか？<br><br>当記事ではNext.jsでの実装を例に、月別アーカイブを実装する手順を紹介します。</p><h1 id=\"hd8b095bea4\">月別アーカイブを実装する</h1><p>前提として、「<a style=\"color:#331cbf\" href=\"https://blog.microcms.io/microcms-next-jamstack-blog/\" target=\"_blank\" rel=\"noopener noreferrer\">microCMS + Next.jsでJamstackブログを作ってみよう</a>」のチュートリアルで作成されるブログを題材にし、ここに<strong>「月別アーカイブ」</strong>機能を追加しく形で進めていきます。<br><br>アウトプットはこのようなイメージです。<br><br>先に実装の流れを確認しておきましょう。<br>以下のようなステップになると思います。</p><ol><li><strong>ブログ記事をすべて取得する</strong></li><li><strong>月ごとに記事をグルーピングする</strong></li><li><strong>「2022年2月（13）」のような表示を作る</strong></li></ol><p><br>なお、今回題材とするブログはSSGで作っています。そのため、月別アーカイブはビルド時に構築する想定です。<br>それでは実装していきましょう。</p><h2 id=\"haaf019da62\">1. ブログ記事をすべて取得する</h2><p>月別アーカイブを作成するタイミングはNext.jsの&nbsp;<code>getStaticProps</code>&nbsp;が良いでしょう。<br>まず、ブログ記事をすべて取得するには以下のように記述します。<br><br>limitを指定しない場合、コンテンツは10件のみ取得されます。ここでは全件取得したいので大きめの値を指定しています。<br>また、ここでは記事の公開日付の情報だけがあれば良いので、<code>fields</code>&nbsp;クエリを使って取得するフィールドを絞り、通信量を抑えています。（<a style=\"color:#331cbf\" href=\"https://document.microcms.io/content-api/get-list-contents#h7462d83de4\" target=\"_blank\" rel=\"noopener noreferrer\">詳細</a>）</p><h2 id=\"h2a48e114df\">2. 月ごとに記事をグルーピングする</h2><p>microCMSで配信するコンテンツには&nbsp;<code>publishedAt</code>&nbsp;という、コンテンツを公開した日付の情報が付与されます。<br><br>日付はISO 8601形式のUTCで、たとえば以下のような形式の値です。<br><br>今回は「月」でグルーピングしたいので、日にちや時間の情報はカットして以下の形式に変換したいと思います。<br></p><pre><code>'2022_04'</code></pre><p><br>この日付の変換を実装していきます。<br>まず、日付を扱うのに便利な&nbsp;<code>dayjs</code>&nbsp;というライブラリを準備します。</p><pre><code>$ npm i -S dayjs</code></pre><p><br>次に、日付をフォーマット変換する実装を追加します。</p>",
+            "description": "Next.jsで月別アーカイブを実装してみよう",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/91d740159c5d4fbf9cbe07bc88fc329c/post_08.webp",
+              "height": 431,
+              "width": 820
+            },
+            "writer": {
+              "id": "hiro08gh"
+            },
+            "partner": null,
+            "related_blogs": [
+              {
+                "id": "astro-preview"
+              },
+              {
+                "id": "microcms-multilingual-site"
+              }
+            ]
+          },
+          {
+            "id": "astro-preview",
+            "createdAt": "2023-02-07T06:04:01.300Z",
+            "updatedAt": "2023-02-07T06:06:32.443Z",
+            "publishedAt": "2023-02-07T06:04:01.300Z",
+            "revisedAt": "2023-02-07T06:04:01.300Z",
+            "title": "AstroとmicroCMSを使った画面プレビューを実装する",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "astro"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">この記事は&nbsp;</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://qiita.com/advent-calendar/2022/microcms\" target=\"_blank\" rel=\"noopener noreferrer\">microCMS Advent Calendar</a><span style=\"color:#2b2c30\">&nbsp;21日目の記事です。</span><br><br><span style=\"color:#2b2c30\">こんにちは、でぃーすけと申します。</span><br><span style=\"color:#2b2c30\">今回はWebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。</span><br></p><h1 id=\"h8d027c8ed3\">はじめに</h1><p>事前準備として以下の公式ブログを参考に「ブログサイト」を構築してください。<br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://blog.microcms.io/astro-microcms-introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.microcms.io/astro-microcms-introduction/</a><br><br>今回は上記で作成したブログサイトをベースに画面プレビューを実装していきます。</p><h1 id=\"hbe94ef2575\">実装の全体像</h1><p>今回作成したブログサイトはサーバーサイドでレンダリングする方式ではなく、静的サイトとしてレンダリングする方式をとっています。<br>そのため、ビルド時は画面プレビューしたいコンテンツの内容は不明であり、画面プレビューされたタイミングでコンテンツのデータを取得する必要があることがわかります。<br><br>もちろん画面プレビューが押されるたびに再ビルドしても良いですが、その度に数分待たなくてはいけないのはとても不便ですよね。<br><br>これらの理由からクライアントJavaScriptでmicroCMSにリクエストをしてデータを取得する形を取るのが良いでしょう。</p><h2 id=\"hee9caadc50\">microCMSの画面プレビュー機能</h2><p>microCMSが提供している画面プレビューの機能は、下書き中のコンテンツ画面からユーザーが設定したURLに遷移することです。<br>このURLを設定する際に、<strong>コンテンツIDとdraftKey(下書きコンテンツを取得するためのキー)</strong>を含めることができます。<br><br>つまり、https://sample.com/preview?contentId=aaa&amp;draftKey=bbb のようなページに遷移させて、URLクエリパラメータから必要な情報を取得するイメージです。<br></p><h1 id=\"h9dcc071ccd\">デプロイ</h1><p>この方法ですとホスティング先は特に縛りなく、どのサービスも利用できるかと思います。<br>前回の記事同様、ビルドは<code>npm run build</code>&nbsp;で行います。<br>ローカルで一度チェックする際は、<code>npm run preview</code>&nbsp;が便利です。（このコマンドは本番環境で動作するように設計されていないため、ホスティング先のベストプラクティスを別途調査ください）</p><h1 id=\"h3632c659e3\">プレビューの体験をさらに上げる</h1><p>ここまでで画面プレビューとしての最低限の実装は完了していますが、さらに便利にすることが可能です。<br>現状だとサイトに訪れた最初のタイミングしかリクエストが送られません。</p>",
+            "description": "WebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/fdc527d1a9f84cd5b17846f00c8182e3/post_05.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "shoma2da"
+            },
+            "partner": null,
+            "related_blogs": []
+          }
+        ]
+      },
+      {
+        "id": "how-to-react-hooks-use-modal",
+        "createdAt": "2023-02-07T07:01:08.640Z",
+        "updatedAt": "2023-02-07T07:01:08.640Z",
+        "publishedAt": "2023-02-07T07:01:08.640Z",
+        "revisedAt": "2023-02-07T07:01:08.640Z",
+        "title": "react-hooks-use-modalを使ってモーダルコンポーネントを作成する",
+        "category": {
+          "id": "engineering",
+          "createdAt": "2023-02-07T02:37:59.224Z",
+          "updatedAt": "2023-02-07T02:37:59.224Z",
+          "publishedAt": "2023-02-07T02:37:59.224Z",
+          "revisedAt": "2023-02-07T02:37:59.224Z",
+          "name": "エンジニアリング"
+        },
+        "tag": [
+          {
+            "id": "astro",
+            "createdAt": "2023-02-07T02:41:41.361Z",
+            "updatedAt": "2023-02-07T02:41:41.361Z",
+            "publishedAt": "2023-02-07T02:41:41.361Z",
+            "revisedAt": "2023-02-07T02:41:41.361Z",
+            "name": "Astro"
+          },
+          {
+            "id": "a11y",
+            "createdAt": "2023-02-07T02:41:28.186Z",
+            "updatedAt": "2023-02-07T02:41:28.186Z",
+            "publishedAt": "2023-02-07T02:41:28.186Z",
+            "revisedAt": "2023-02-07T02:41:28.186Z",
+            "name": "Accessibility"
+          },
+          {
+            "id": "cloudflare",
+            "createdAt": "2023-02-07T02:41:08.411Z",
+            "updatedAt": "2023-02-07T02:41:08.411Z",
+            "publishedAt": "2023-02-07T02:41:08.411Z",
+            "revisedAt": "2023-02-07T02:41:08.411Z",
+            "name": "Cloudflare"
+          },
+          {
+            "id": "reactjs",
+            "createdAt": "2023-02-07T02:39:49.506Z",
+            "updatedAt": "2023-02-07T02:39:49.506Z",
+            "publishedAt": "2023-02-07T02:39:49.506Z",
+            "revisedAt": "2023-02-07T02:39:49.506Z",
+            "name": "React"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p><span style=\"color:#2b2c30\">こんにちはかみむらです。</span><br><br><span style=\"color:#2b2c30\">先日</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://twitter.com/shibe97\" target=\"_blank\" rel=\"noopener noreferrer\">柴田さん</a><span style=\"color:#2b2c30\">が公開していた、Reactのモーダルコンポーネントを簡単に作成できるライブラリ</span><strong style=\"color:#2b2c30\">&nbsp;react-hooks-use-modal</strong><span style=\"color:#2b2c30\">&nbsp;をmicroCMSの</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://github.com/microcmsio\" target=\"_blank\" rel=\"noopener noreferrer\">Organization</a><span style=\"color:#2b2c30\">に移行しました。</span><br><br><span style=\"color:#2b2c30\">こちらがGitHubのリポジトリです。</span><br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://github.com/microcmsio/react-hooks-use-modal\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/microcmsio/react-hooks-use-modal</a><br><br><span style=\"color:#2b2c30\">こちらはデモになります。</span><br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://microcmsio.github.io/react-hooks-use-modal/\" target=\"_blank\" rel=\"noopener noreferrer\">https://microcmsio.github.io/react-hooks-use-modal/</a><br><br><strong style=\"color:#2b2c30\">react-hooks-use-modal</strong><span style=\"color:#2b2c30\">はmicroCMSの管理画面内部にも使われています。例えばWebhook追加時のモーダルコンポーネントです。</span><br><br>モーダルのコンポーネントは1から実装すると非常に工数がかかりますが、<strong>react-hooks-use-modal</strong>を使えば少ない工数で実装することができます。<br><br><strong>react-hooks-use-modal</strong>が他のモーダルライブラリと違う点として、<strong>hooks</strong>自身がコンポーネントを返すところが挙げられます。これによって、本来ライブラリの外側で定義する必要があるisOpenフラグ等を内部で定義できるため、よりシンプルなAPI仕様を実現しています。<br><br>今回はライブラリの導入と使い方について解説します。</p><h2 id=\"hd8d793506b\">インストール</h2><p><br>ここからは、Reactをベースとしたプロジェクトに導入する前提で話を進めていきます。まずは<strong>react-hooks-use-modal</strong>をインストールしましょう。バージョンは2.0.1~を想定しています。<br></p><pre><code>$ npm install  react-hooks-use-modal\n\nor\n\n$ yarn install  react-hooks-use-modal</code></pre><p>そして、利用するコンポーネントにライブラリをインポートします。<br></p><pre><code>import { useModal } from 'react-hooks-use-modal';</code></pre><h2 id=\"h4d849f4362\">使い方</h2><p>使い方はシンプルで<code>useModal</code>というAPIを使います。useModalでは<code>Modal</code>、<code>open</code>、<code>close</code>、<code>isOpen</code>の4つを返します。オプションで、<code>preventScroll</code><br>(スクロールの有無)を指定できます。デフォルトは<code>false</code>です。<br></p><h2 id=\"h5c908973b1\">react-hooks-use-modal API</h2><p>ここからはreact-hooks-use-modaのAPIについて説明していきます。<br><br><code>ModalComponent</code>&nbsp;モーダルのコンポーネントです。これをラップしたコンポーネントは画面中央に配置されます。<br><code>openFunc</code>&nbsp;モーダルをオープンするためのメソッドです。isOpenの値が<strong>true</strong>になります。<br><code>closeFunc</code>&nbsp;モーダルをクローズするためのメソッドです。isOpenの値が<strong>false</strong>になります。<br><code>isOpenBool</code>&nbsp;isOpenの値です。<br><code>domNode</code>&nbsp;これはオプションです。デフォルトの値は<strong>'root'</strong>です。 モーダルコンポーネントはReact-Portalを使っているため、特定のdomNodeを使いたい場合に使用します。<br><code>preventScroll</code>&nbsp;モーダルコンポーネントがオープンになっている時にスクロールを表示するオプションです。 デフォルトの値は<strong>false</strong>です。<br></p><h2 id=\"h9be0c3393d\">おわりに</h2><p>今回はreact-hooks-use-modalを紹介しました。microCMS内部でも利用されていて非常に使いやすいライブラリとなっています。もしバグやライブラリへの要望等ありましたら、ぜひ<strong>issues</strong>や<strong>PR</strong>で伝えてください。</p>",
+        "description": "react-hooks-use-modalを使って簡単にモーダルコンポーネントの作成する方法について解説します。",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/786adffb102a4618887a2b2f588b93ae/post_13.webp",
+          "height": 410,
+          "width": 820
+        },
+        "writer": {
+          "id": "shoma2da",
+          "createdAt": "2023-02-07T02:34:53.027Z",
+          "updatedAt": "2023-02-07T02:34:53.027Z",
+          "publishedAt": "2023-02-07T02:34:53.027Z",
+          "revisedAt": "2023-02-07T02:34:53.027Z",
+          "name": "松田 承一",
+          "text": "株式会社microCMSの代表 / 家族＝👨‍👩‍👧 / ヤフー→大学教員など→現職 / 管理画面付きAPIがすぐに作れるmicroCMSというサービス作ってます。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/870a62fbedf64f7ca61993de2623da68/author_matsuda.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "astro-preview",
+            "createdAt": "2023-02-07T06:04:01.300Z",
+            "updatedAt": "2023-02-07T06:06:32.443Z",
+            "publishedAt": "2023-02-07T06:04:01.300Z",
+            "revisedAt": "2023-02-07T06:04:01.300Z",
+            "title": "AstroとmicroCMSを使った画面プレビューを実装する",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "astro"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">この記事は&nbsp;</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://qiita.com/advent-calendar/2022/microcms\" target=\"_blank\" rel=\"noopener noreferrer\">microCMS Advent Calendar</a><span style=\"color:#2b2c30\">&nbsp;21日目の記事です。</span><br><br><span style=\"color:#2b2c30\">こんにちは、でぃーすけと申します。</span><br><span style=\"color:#2b2c30\">今回はWebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。</span><br></p><h1 id=\"h8d027c8ed3\">はじめに</h1><p>事前準備として以下の公式ブログを参考に「ブログサイト」を構築してください。<br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://blog.microcms.io/astro-microcms-introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.microcms.io/astro-microcms-introduction/</a><br><br>今回は上記で作成したブログサイトをベースに画面プレビューを実装していきます。</p><h1 id=\"hbe94ef2575\">実装の全体像</h1><p>今回作成したブログサイトはサーバーサイドでレンダリングする方式ではなく、静的サイトとしてレンダリングする方式をとっています。<br>そのため、ビルド時は画面プレビューしたいコンテンツの内容は不明であり、画面プレビューされたタイミングでコンテンツのデータを取得する必要があることがわかります。<br><br>もちろん画面プレビューが押されるたびに再ビルドしても良いですが、その度に数分待たなくてはいけないのはとても不便ですよね。<br><br>これらの理由からクライアントJavaScriptでmicroCMSにリクエストをしてデータを取得する形を取るのが良いでしょう。</p><h2 id=\"hee9caadc50\">microCMSの画面プレビュー機能</h2><p>microCMSが提供している画面プレビューの機能は、下書き中のコンテンツ画面からユーザーが設定したURLに遷移することです。<br>このURLを設定する際に、<strong>コンテンツIDとdraftKey(下書きコンテンツを取得するためのキー)</strong>を含めることができます。<br><br>つまり、https://sample.com/preview?contentId=aaa&amp;draftKey=bbb のようなページに遷移させて、URLクエリパラメータから必要な情報を取得するイメージです。<br></p><h1 id=\"h9dcc071ccd\">デプロイ</h1><p>この方法ですとホスティング先は特に縛りなく、どのサービスも利用できるかと思います。<br>前回の記事同様、ビルドは<code>npm run build</code>&nbsp;で行います。<br>ローカルで一度チェックする際は、<code>npm run preview</code>&nbsp;が便利です。（このコマンドは本番環境で動作するように設計されていないため、ホスティング先のベストプラクティスを別途調査ください）</p><h1 id=\"h3632c659e3\">プレビューの体験をさらに上げる</h1><p>ここまでで画面プレビューとしての最低限の実装は完了していますが、さらに便利にすることが可能です。<br>現状だとサイトに訪れた最初のタイミングしかリクエストが送られません。</p>",
+            "description": "WebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/fdc527d1a9f84cd5b17846f00c8182e3/post_05.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "shoma2da"
+            },
+            "partner": null,
+            "related_blogs": []
+          },
+          {
+            "id": "microcms-and-nature-remo",
+            "createdAt": "2023-02-07T06:06:11.158Z",
+            "updatedAt": "2023-02-10T14:34:10.028Z",
+            "publishedAt": "2023-02-07T06:06:11.158Z",
+            "revisedAt": "2023-02-10T14:34:10.028Z",
+            "title": "ブラウザから家電を操作しよう (microCMS × Nature Remo)",
+            "category": {
+              "id": "engineering"
+            },
+            "tag": [
+              {
+                "id": "api"
+              },
+              {
+                "id": "typescript"
+              },
+              {
+                "id": "nextjs"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<h1 id=\"h8d027c8ed3\">はじめに</h1><p><br>皆さんは&nbsp;<a style=\"color:#331cbf\" href=\"https://nature.global/nature-remo/\" target=\"_blank\" rel=\"noopener noreferrer\">Nature Remo</a>&nbsp;というデバイスをご存知でしょうか？<br>これは赤外線方式のリモコンを備えた家電をスマートフォンのアプリやスマートスピーカーから操作することができるようになる製品です。<br><br>この Nature Remo は&nbsp;<a style=\"color:#331cbf\" href=\"https://developer.nature.global/\" target=\"_blank\" rel=\"noopener noreferrer\">Web API</a>&nbsp;を公開しています。<br>つまり Nature Remo を使用すると curl コマンドや任意のプログラミング言語で家電を操作できるということです。<br><br>この Web API を活用してブラウザから家電を操作できるようにすると PC の前から離れずに生活することができて便利そうなので、実際にそんな仕組みを作ってみました。<br>私はあまり UI を作るのが得意ではないので UI は自作せず microCMS の管理画面を UI として使うことにしました。<br><br>microCMS は本来外部の Web API と直接やりとりするような仕組みを備えていませんが、コンテンツの更新をトリガーとした&nbsp;<a style=\"color:#331cbf\" href=\"https://document.microcms.io/manual/webhook-setting#hd95625726f\" target=\"_blank\" rel=\"noopener noreferrer\">Webhook 機能</a>を持っています。<br>Web API を叩くコードを実装して Webhook サーバを用意すると、間接的に任意の Web API を microCMS から操作できることになります。<br>今回はこのサーバを Go 言語で実装し、 AWS AppRunnner 上で動作させることにしました。<br><br>簡易的なものですが、構成図としては以下のようになります。<br></p><h1 id=\"hb007cedecf\">構築</h1><h2 id=\"hfb43bf26a4\">AWS AppRunner にサーバ(仮実装)をデプロイ</h2><p><br><a style=\"color:#331cbf\" href=\"https://aws.amazon.com/jp/apprunner/\" target=\"_blank\" rel=\"noopener noreferrer\">AWS AppRunner</a>&nbsp;は AWS 上でコンテナを実行、 HTTP リクエストを受け付けるための最も簡単な手段だと思います。<br>今回はこれを使用します。<br>まずは Webhook を受け付けてそのままログ取得するようなコードをデプロイしてみましょう。<br></p><h2 id=\"h86f0f132e7\">microCMS で API 作成</h2><p><br>家電操作の UI として microCMS を利用する際の最適な API スキーマは家電によって異なると思います。<br>私の家のリビングには照明とエアコンが1つずつあり、それぞれ Nature Remo がセットアップ済みです。<br>照明は単純に ON/OFF ができれば十分で、エアコンは ON/OFF、モード(冷房or暖房)、風向き、風の強さ、温度を制御したいと思ったため、以下のように&nbsp;<a style=\"color:#331cbf\" href=\"https://files.microcms-assets.io/assets/f5d83e38f9374219900ef1b0cc4d85cd/e1490e6d42e94661ab90f8d3a479de01/api-living-room.json\" target=\"_blank\" rel=\"noopener noreferrer\">API スキーマ</a>を定義しました。</p>",
+            "description": "microCMS と Nature Remo を連携してブラウザから家電を操作しよう",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/38c1d6394fb14c62987d2e86880186a3/post_06.webp",
+              "height": 431,
+              "width": 820
+            },
+            "writer": {
+              "id": "marei"
+            },
+            "partner": null,
+            "related_blogs": [
+              {
+                "id": "astro-preview"
+              }
+            ]
+          },
+          {
+            "id": "conversation-design",
+            "createdAt": "2023-02-07T05:30:50.641Z",
+            "updatedAt": "2023-02-07T06:01:15.569Z",
+            "publishedAt": "2023-02-07T05:30:50.641Z",
+            "revisedAt": "2023-02-07T05:32:48.682Z",
+            "title": "microCMSの繰り返しフィールドを利用して対談風のデザインを作る",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "nextjs"
+              },
+              {
+                "id": "reactjs"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">はじめまして、先日microCMSにカスタマーエンジニアとして入社した下津曲です。</span><br><br><span style=\"color:#2b2c30\">Webメディアの記事や採用コンテンツにおいて、以下のような、</span><strong style=\"color:#2b2c30\">左右から吹き出しで人が話しているように見えるデザイン</strong><span style=\"color:#2b2c30\">にしたい場合があるかと思います。</span><br><br><span style=\"color:#2b2c30\">実際に、microCMSの導入をご検討されているお客様からも、このような見せ方はできるのか？といったご相談をいただくことがしばしばあります。</span><br><br><span style=\"color:#2b2c30\">例えば、以下はWebメディア「</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://r25.jp/article/698797563895033416\" target=\"_blank\" rel=\"noopener noreferrer\">新R25</a><span style=\"color:#2b2c30\">」の例です。</span><br><br>今回はWeb制作におけるTipsとして、microCMSの<a style=\"color:#331cbf\" href=\"https://document.microcms.io/manual/repeat-field\" target=\"_blank\" rel=\"noopener noreferrer\">繰り返しフィールド</a>を使って上記のようなデザインを作るのに便利なAPIスキーマを構築してみようと思います。<br></p><h2 id=\"hc7eb47b85b\">APIを作成し、スキーマを定義する</h2><p>今回は、簡単のためにサービスは作成済みと仮定して進めていきます。<br>API名は「対談コンテンツ」、エンドポイントは<code>interview</code>としました。なお、APIの型はリスト形式です。<br><br><span style=\"color:#2b2c30\">早速APIスキーマを定義していきます。</span><br><span style=\"color:#2b2c30\">まずは対談コンテンツのタイトルを以下のように定義しました。ひとまずこの状態で「作成」をし、対談の中身はのちに繰り返しフィールドを使って定義します。</span><br><br><span style=\"color:#2b2c30\">次に、メインの対談部分のスキーマを作ります。</span><br><span style=\"color:#2b2c30\">基本的な考え方として、以下のように</span><strong style=\"color:#2b2c30\">「本文（</strong><strong><code>normalText</code></strong><strong style=\"color:#2b2c30\">）」</strong><span style=\"color:#2b2c30\">と</span><strong style=\"color:#2b2c30\">「対談文（</strong><strong><code>talkText</code></strong><strong style=\"color:#2b2c30\">）」</strong><span style=\"color:#2b2c30\">をそれぞれカスタムフィールドとして作成し、繰り返しフィールドを用いてそれらを繰り返し入稿できるようにします。</span></p>",
+            "description": "microCMSの繰り返しフィールドを利用して、対談風のデザインを作ります",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/1904f3009f3e4902a0661508509bfd7e/post_02.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "hiro08gh"
+            },
+            "partner": null,
+            "related_blogs": []
+          }
+        ]
+      },
+      {
+        "id": "astro-search",
+        "createdAt": "2023-02-07T06:55:03.840Z",
+        "updatedAt": "2023-02-09T13:10:10.964Z",
+        "publishedAt": "2023-02-07T06:55:03.840Z",
+        "revisedAt": "2023-02-09T13:10:10.964Z",
+        "title": "AstroとmicroCMSを使った検索機能を実装する",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "astro",
+            "createdAt": "2023-02-07T02:41:41.361Z",
+            "updatedAt": "2023-02-07T02:41:41.361Z",
+            "publishedAt": "2023-02-07T02:41:41.361Z",
+            "revisedAt": "2023-02-07T02:41:41.361Z",
+            "name": "Astro"
+          },
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p>こんにちは、でぃーすけと申します。<br>今回はWebフレームワークAstroを使ってmicroCMSにおける検索機能を実装する方法をご紹介します。<br></p><h1 id=\"h8d027c8ed3\">はじめに</h1><p>事前準備として以下の公式ブログを参考に「ブログサイト」を構築してください。<br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://blog.microcms.io/astro-microcms-introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.microcms.io/astro-microcms-introduction/</a><br><br>今回は上記で作成したブログサイトをベースに検索機能を実装していきます。<br>また、UIフレームワークとしてPreact、データフェッチライブラリとしてSWRを使用しますので、以下の公式ブログを参考にそれぞれのライブラリを導入してください。<br><a style=\"color:#331cbf\" href=\"https://blog.microcms.io/astro-preview/#h00c1750207\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.microcms.io/astro-preview/#h00c1750207</a></p><h1 id=\"hbe94ef2575\">実装の全体像</h1><p>全体像としては先ほど挙げた「AstroとmicroCMSを使った画面プレビューを実装する」の記事でのやり方とかなり近いものになります。<br></p><ol><li>pagesディレクトリに検索ページを作成する</li><li>クライアントJavaScriptで検索キーワードをURLクエリパラメータに追加する</li><li>クライアントJavaScriptでURLクエリパラメータから検索キーワードを取得する</li><li>クライアントJavaScriptでmicroCMSにリクエストを送り、取得したデータをレンダリングする</li></ol><h1 id=\"h6546dede83\">検索ページを作成する</h1><p>まずは検索が行われるページを作成します。<br>今回は&nbsp;<code>/search</code>&nbsp;で開かれるページを作成したいので、一旦最小限の形で&nbsp;<code>src/pages/search.astro</code>&nbsp;を作成します。<br></p><h1 id=\"h9f236ae012\">URLクエリパラメータから検索キーワードを取得する</h1><p>それでは検索ページの実装に移りましょう。<br>このページでは先ほどURLクエリパラメータに追加した検索キーワードをもとに記事を検索します。<br>そのための準備として、<code>q</code>&nbsp;パラメータを取得しましょう。<br><br>その上で先ほどの入力UIから検索ページに移動し、コンソールの表示を確認してみましょう。<br>入力したキーワードが表示されていれば成功です。<br></p><h1 id=\"hbbea7cd6c3\">microCMSにリクエストを送り、取得したデータをレンダリングする</h1><p>次は実際にmicroCMSにリクエストを送ります。<br>先ほど取得した検索キーワードをGET APIのパラメータに指定することで全文検索ができます。<br></p><h1 id=\"h9be0c3393d\">おわりに</h1><p>今回はかなり最小限の形で検索機能を実装しました。<br>これをベースにして、以下のような実装をすることでさらにユーザビリティを上げることができると思います！</p><ul><li>ページネーション：1…5 6 7…10 のようなUIを作る</li><li>ページネーション：A11Yに必要な属性等を追加する（参考：<a style=\"color:#331cbf\" href=\"https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-pagination\" target=\"_blank\" rel=\"noopener noreferrer\">https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-pagination</a>）</li><li>History APIを使って検索ページ内ではSWRのキャッシュを最大限利用する（参考：<a style=\"color:#331cbf\" href=\"https://developer.mozilla.org/ja/docs/Web/API/History\" target=\"_blank\" rel=\"noopener noreferrer\">https://developer.mozilla.org/ja/docs/Web/API/History</a>）</li><li><code>page</code>&nbsp;ステートをURLに含めてリンクとして共有できるようにする</li></ul>",
+        "description": "WebフレームワークAstroを使ってmicroCMSにおける検索機能を実装する方法をご紹介します",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/906963dbaed241baa52ae64c2bac4845/post_12.png",
+          "height": 630,
+          "width": 1200
+        },
+        "writer": {
+          "id": "shoma2da",
+          "createdAt": "2023-02-07T02:34:53.027Z",
+          "updatedAt": "2023-02-07T02:34:53.027Z",
+          "publishedAt": "2023-02-07T02:34:53.027Z",
+          "revisedAt": "2023-02-07T02:34:53.027Z",
+          "name": "松田 承一",
+          "text": "株式会社microCMSの代表 / 家族＝👨‍👩‍👧 / ヤフー→大学教員など→現職 / 管理画面付きAPIがすぐに作れるmicroCMSというサービス作ってます。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/870a62fbedf64f7ca61993de2623da68/author_matsuda.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "usecase-leact",
+            "createdAt": "2023-02-07T06:13:23.425Z",
+            "updatedAt": "2023-02-07T06:13:48.888Z",
+            "publishedAt": "2023-02-07T06:13:23.425Z",
+            "revisedAt": "2023-02-07T06:13:48.888Z",
+            "title": "【法律事務所LEACT様】STUDIO＋microCMSで拡張性が高いサイトへリニューアル",
+            "category": {
+              "id": "usecase"
+            },
+            "tag": [
+              {
+                "id": "astro"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p>今回、サイトビルダーにSTUDIO、コンテンツ管理にmicroCMSを利用してリニューアルされました。詳しい経緯については、法律事務所LEACT 酒井様が書かれたnote記事をご覧ください。<br></p><blockquote>microCMS × STUDIO に移行したお話<br><a style=\"color:#331cbf\" href=\"https://note.com/t_sakai/n/n40599e45a2fa\" target=\"_blank\" rel=\"noopener noreferrer\">https://note.com/t_sakai/n/n40599e45a2fa</a></blockquote><p><br><span style=\"color:#08131a\">note記事でも触れていただいていますが、</span><a style=\"color:#08131a\" href=\"https://microcms.io/\" target=\"_blank\" rel=\"noopener noreferrer\">microCMSのサービスサイト</a><span style=\"color:#08131a\">もSTUDIOとmicroCMSを組み合わせています。</span>ぜひ参考にしてみてください！</p>",
+            "description": "microCMSの導入事例紹介です。法律事務所LEACT様のサービスサイトにて導入いただきました！",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/47ccd3a7bf91407c95ff1a8768dc0cf2/post_07.webp",
+              "height": 431,
+              "width": 820
+            },
+            "writer": {
+              "id": "kudominato"
+            },
+            "partner": null,
+            "related_blogs": [
+              {
+                "id": "usecase-smarthr"
+              }
+            ]
+          },
+          {
+            "id": "astro-preview",
+            "createdAt": "2023-02-07T06:04:01.300Z",
+            "updatedAt": "2023-02-07T06:06:32.443Z",
+            "publishedAt": "2023-02-07T06:04:01.300Z",
+            "revisedAt": "2023-02-07T06:04:01.300Z",
+            "title": "AstroとmicroCMSを使った画面プレビューを実装する",
+            "category": {
+              "id": "tutorial"
+            },
+            "tag": [
+              {
+                "id": "astro"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">この記事は&nbsp;</span><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://qiita.com/advent-calendar/2022/microcms\" target=\"_blank\" rel=\"noopener noreferrer\">microCMS Advent Calendar</a><span style=\"color:#2b2c30\">&nbsp;21日目の記事です。</span><br><br><span style=\"color:#2b2c30\">こんにちは、でぃーすけと申します。</span><br><span style=\"color:#2b2c30\">今回はWebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。</span><br></p><h1 id=\"h8d027c8ed3\">はじめに</h1><p>事前準備として以下の公式ブログを参考に「ブログサイト」を構築してください。<br><a style=\"color:#331cbf;background-color:#ffffff\" href=\"https://blog.microcms.io/astro-microcms-introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">https://blog.microcms.io/astro-microcms-introduction/</a><br><br>今回は上記で作成したブログサイトをベースに画面プレビューを実装していきます。</p><h1 id=\"hbe94ef2575\">実装の全体像</h1><p>今回作成したブログサイトはサーバーサイドでレンダリングする方式ではなく、静的サイトとしてレンダリングする方式をとっています。<br>そのため、ビルド時は画面プレビューしたいコンテンツの内容は不明であり、画面プレビューされたタイミングでコンテンツのデータを取得する必要があることがわかります。<br><br>もちろん画面プレビューが押されるたびに再ビルドしても良いですが、その度に数分待たなくてはいけないのはとても不便ですよね。<br><br>これらの理由からクライアントJavaScriptでmicroCMSにリクエストをしてデータを取得する形を取るのが良いでしょう。</p><h2 id=\"hee9caadc50\">microCMSの画面プレビュー機能</h2><p>microCMSが提供している画面プレビューの機能は、下書き中のコンテンツ画面からユーザーが設定したURLに遷移することです。<br>このURLを設定する際に、<strong>コンテンツIDとdraftKey(下書きコンテンツを取得するためのキー)</strong>を含めることができます。<br><br>つまり、https://sample.com/preview?contentId=aaa&amp;draftKey=bbb のようなページに遷移させて、URLクエリパラメータから必要な情報を取得するイメージです。<br></p><h1 id=\"h9dcc071ccd\">デプロイ</h1><p>この方法ですとホスティング先は特に縛りなく、どのサービスも利用できるかと思います。<br>前回の記事同様、ビルドは<code>npm run build</code>&nbsp;で行います。<br>ローカルで一度チェックする際は、<code>npm run preview</code>&nbsp;が便利です。（このコマンドは本番環境で動作するように設計されていないため、ホスティング先のベストプラクティスを別途調査ください）</p><h1 id=\"h3632c659e3\">プレビューの体験をさらに上げる</h1><p>ここまでで画面プレビューとしての最低限の実装は完了していますが、さらに便利にすることが可能です。<br>現状だとサイトに訪れた最初のタイミングしかリクエストが送られません。</p>",
+            "description": "WebフレームワークAstroを使ってmicroCMSの画面プレビューを実装する方法をご紹介します。",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/fdc527d1a9f84cd5b17846f00c8182e3/post_05.png",
+              "height": 630,
+              "width": 1200
+            },
+            "writer": {
+              "id": "shoma2da"
+            },
+            "partner": null,
+            "related_blogs": []
+          }
+        ]
+      },
+      {
+        "id": "microcms-nuxt-jamstack-blog",
+        "createdAt": "2023-02-07T06:52:53.156Z",
+        "updatedAt": "2023-02-07T06:52:53.156Z",
+        "publishedAt": "2023-02-07T06:52:53.156Z",
+        "revisedAt": "2023-02-07T06:52:53.156Z",
+        "title": "microCMS + NuxtでJamstackブログを作ってみよう",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          },
+          {
+            "id": "jamstack",
+            "createdAt": "2023-02-07T02:40:34.625Z",
+            "updatedAt": "2023-02-07T02:40:34.625Z",
+            "publishedAt": "2023-02-07T02:40:34.625Z",
+            "revisedAt": "2023-02-07T02:40:34.625Z",
+            "name": "Jamstack"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p><span style=\"color:#2b2c30\">以前、チャリティーカンファレンス沖縄 2020 vol.1 フロントエンド編で行なったmicroCMSワークショップの内容を記事にしました。</span><br><br>このワークショップでは、microCMSとNuxt.jsを組み合わせJamstackなブログを作成することができます。<br>当時の内容はNuxt v2.13に沿ったものでしたが、本記事では内容をアップデートし、v2.14にて説明を進めます。<br></p><h1 id=\"h97fc41ae77\">1. Nuxtプロジェクトを用意する</h1><p><br></p><pre><code>$ npx create-nuxt-app microcms-nuxt-jamstack-blog</code></pre><p>ここでは設定項目は以下のようにします。<br><br>下記のコマンドで開発環境が立ち上がります。<br></p><pre><code>$ cd microcms-nuxt-jamstack-blog\n$ npm run dev</code></pre><p><code>localhost:3000</code>&nbsp;にアクセスすると下記が表示されます。<br></p><h1 id=\"h995750e219\">3. ブログ一覧を表示する</h1><p>Nuxtでは&nbsp;<code>pages/</code>&nbsp;以下に作成したファイルに基づいて自動的にルーティングがされる仕組みになっています。</p><ul><li><code>pages/index.vue</code>&nbsp;→ 記事一覧</li><li><code>pages/about.vue</code>&nbsp;→ Aboutページ</li><li><code>pages/_slug/index.vue</code>&nbsp;→ 記事詳細</li></ul><p><br>記事詳細画面のように動的なページは&nbsp;<code>_slug</code>のようなディレクトリを間に挟む必要があります。（または&nbsp;<code>_slug.vue</code>でも良い）<br>URLからのパスに応じて&nbsp;<code>slug</code>という変数で値を受け取ることができます。<br><br>まずは一覧ページを用意していきます。<br><code>pages/index.vue</code>&nbsp;を次のように変更してみましょう。<br><br><span style=\"color:#2b2c30\">先ほどのソースコード内の</span><code>X-API-KEY</code><span style=\"color:#2b2c30\">のところに値をセットします。</span><br><span style=\"color:#2b2c30\">ここまで終えたところで、</span><code>localhost:3000</code><span style=\"color:#2b2c30\">にアクセスすると記事一覧が表示されているはずです。</span></p>",
+        "description": "ワークショップの内容を記事にしました。NuxtとmicroCMSを用いてJamstackなブログを作成してみましょう",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/31766d0199a2422b828160c5d99530fd/post_11.webp",
+          "height": 431,
+          "width": 820
+        },
+        "writer": {
+          "id": "hiro08gh",
+          "createdAt": "2023-02-07T02:33:14.046Z",
+          "updatedAt": "2023-02-07T02:33:14.046Z",
+          "publishedAt": "2023-02-07T02:33:14.046Z",
+          "revisedAt": "2023-02-07T02:33:14.046Z",
+          "name": "かみむら",
+          "text": "フロントエンドエンジニア。テックブロガーでもあります。JAMstackアーキテクチャーやSPA（React、Vue）技術が好きです。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/b78a1d084202418ebc29de64f5ec8321/author_kamimura.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "microcms-multilingual-site",
+            "createdAt": "2023-02-07T06:00:11.904Z",
+            "updatedAt": "2023-02-07T06:01:44.817Z",
+            "publishedAt": "2023-02-07T06:00:11.904Z",
+            "revisedAt": "2023-02-07T06:00:11.904Z",
+            "title": "microCMSで多言語サイトに対応する方法",
+            "category": {
+              "id": "engineering"
+            },
+            "tag": [
+              {
+                "id": "operation"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<p><span style=\"color:#2b2c30\">こんにちは、デザインエンジニアのしょうみゆです。</span><br><br><span style=\"color:#2b2c30\">『microCMSで多言語サイトは作れますか？』という質問をいただくことがありますが、</span><br><span style=\"color:#2b2c30\">APIの設計を工夫すれば多言語サイトも制作が可能です！</span><br><br><span style=\"color:#2b2c30\">具体的には</span><strong style=\"color:#2b2c30\">言語ごとにAPIを作成する方法</strong><span style=\"color:#2b2c30\">と、</span><strong style=\"color:#2b2c30\">一つのAPIで言語ごとにスキーマを作成する方法</strong><span style=\"color:#2b2c30\">の2種類があります。</span><br><span style=\"color:#2b2c30\">実際に私も個人の制作案件で検討した方法になります。</span><br><br><span style=\"color:#2b2c30\">どちらもメリットやデメリットがあるので、APIレスポンスのイメージや作り方も併せて紹介したいと思います！</span><br></p><h1 id=\"hed3c13b5b1\">言語ごとにAPIを作成する方法</h1><p><br>ひとつのAPIにつき、ひとつの言語でコンテンツを制作していくスタイルです。<br>例えばブログのコンテンツを多言語展開する場合、以下のようになります。<br></p><h2 id=\"h3ab24f6f50\">メリット</h2><p><br>このスタイルのメリットに以下が挙げられます。</p><ul><li>他言語のコンテンツへの影響を気にしなくて良い</li><li>言語別にコンテンツを分けることができる</li><li>日本語の運用者と英語の運用者で権限を分けられる</li><li>既存のサイトを多言語化する場合にも工数が少ない</li></ul><p><br></p><h3 id=\"hfe037cfb50\">他言語のコンテンツへの影響を気にしなくて良い</h3><p><br>APIが独立しているので、コンテンツを更新する際に他の言語のコンテンツを気にする必要がありません。<br></p><h3 id=\"h6042dfd45e\">言語別にコンテンツを分けることができる</h3><p><br>言語別に異なるコンテンツを用意したいという場合があるかもしれません。<br>その場合にも他言語を考慮せずスキーマ設定の変更が可能です。</p><h3 id=\"h4afdcdf198\">日本語の運用者と英語の運用者で権限を分けられる</h3><p><br>API単位で設計しているので、権限周りの設定も分けることが可能です。<br>日本語と英語の運用者が異なる場合に便利です。</p>",
+            "description": "microCMSで多言語化サイトを作成するために、言語ごとにAPIを作成する方法と、一つのAPIで言語ごとにスキーマを作成する方法があります。どちらもメリットやデメリットがあるのでAPIレスポンスのイメージや作り方と共に紹介します。",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/3f0f8807983f4acdbf89abfc5a24fec9/post_04.webp",
+              "height": 431,
+              "width": 820
+            },
+            "writer": {
+              "id": "himorishige"
+            },
+            "partner": null,
+            "related_blogs": [
+              {
+                "id": "web-frontend-architecture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "microcms-advent-calendar-2022",
+        "createdAt": "2023-02-07T06:50:39.325Z",
+        "updatedAt": "2023-02-07T06:50:39.325Z",
+        "publishedAt": "2023-02-07T06:50:39.325Z",
+        "revisedAt": "2023-02-07T06:50:39.325Z",
+        "title": "【イベントレポート】microCMS Advent Calendar 2022",
+        "category": {
+          "id": "event",
+          "createdAt": "2023-02-07T02:35:21.536Z",
+          "updatedAt": "2023-02-07T02:35:31.715Z",
+          "publishedAt": "2023-02-07T02:35:21.536Z",
+          "revisedAt": "2023-02-07T02:35:31.715Z",
+          "name": "イベント・セミナー"
+        },
+        "tag": [],
+        "toc_visible": false,
+        "body": "<p>複数人でブログ記事を書いてリレー形式で投稿する「アドベントカレンダー」。<br>microCMSは、2021年に引き続き2022年も「<strong>Qiita Advent Calendar 2022</strong>」にmicroCMSのアドベントカレンダーを開設しました！</p><blockquote>【お知らせ】<br>今年も「Qiita Advent Calendar」にmicroCMSのアドベントカレンダーを開設しました🎄<br>microCMSを使ったプロジェクトやノウハウなど、サービスに関連することならなんでもどうぞ！<br>どなたでも投稿可能です。ご参加お待ちしております💡<a style=\"color:#331cbf\" href=\"https://t.co/5Q4OlYm107\" target=\"_blank\" rel=\"noopener noreferrer\">https://t.co/5Q4OlYm107</a><br><a style=\"color:#331cbf\" href=\"https://twitter.com/hashtag/microcms?src=hash&amp;ref_src=twsrc%5Etfw\" target=\"_blank\" rel=\"noopener noreferrer\">#microcms</a>&nbsp;<a style=\"color:#331cbf\" href=\"https://twitter.com/hashtag/Qiita%E3%82%A2%E3%83%89%E3%82%AB%E3%83%AC?src=hash&amp;ref_src=twsrc%5Etfw\" target=\"_blank\" rel=\"noopener noreferrer\">#Qiitaアドカレ</a><br>— microCMS｜APIベースのヘッドレスCMS (@micro_cms)&nbsp;<a style=\"color:#331cbf\" href=\"https://twitter.com/micro_cms/status/1597459332140257280?ref_src=twsrc%5Etfw\" target=\"_blank\" rel=\"noopener noreferrer\">November 29, 2022</a></blockquote><p><br><span style=\"color:#2b2c30\">投稿のルールは「</span><strong style=\"color:#2b2c30\">microCMSを使ったプロジェクトやノウハウなど、サービスに関連することならなんでもOK！</strong><span style=\"color:#2b2c30\">」としています。</span><br><span style=\"color:#333333\">それでは、microCMSアドベントカレンダー2022に投稿されたブログを全てご紹介</span><span style=\"color:#2b2c30\">します。（順不同）</span><br></p><h1 id=\"ha214098e44\">まとめ</h1><p>昨年12月のアドベントカレンダー記事ダイジェストをお届けしました。いかがでしたでしょうか？<br><span style=\"color:#333333\">microCMSアドベントカレンダー2022にご参加いただいた皆さま、ありがとうございました！</span><br><br>microCMSでは、2023年も引き続きオンラインイベントを実施予定です！<br>ぜひ<a style=\"color:#38a5c3\" href=\"https://twitter.com/micro_cms\" target=\"_blank\" rel=\"noopener noreferrer\">microCMSの公式Twitter</a>にも注目していてくださいね。</p>",
+        "description": "microCMS Advent Calendar 2022",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/0708151908f443029991ac9cbe80503f/post_10.webp",
+          "height": 431,
+          "width": 820
+        },
+        "writer": {
+          "id": "kudominato",
+          "createdAt": "2023-02-07T02:28:34.124Z",
+          "updatedAt": "2023-02-07T02:28:34.124Z",
+          "publishedAt": "2023-02-07T02:28:34.124Z",
+          "revisedAt": "2023-02-07T02:28:34.124Z",
+          "name": "工藤 港",
+          "text": "microCMSでマーケター/コミュニティマネージャーをしています。 プライベートでは0歳娘の子育てに奮闘中。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/bd409af22f3046e9b26acf016ecd756e/author_kudominato.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": []
+      },
+      {
+        "id": "nextjs-sg-ssr",
+        "createdAt": "2023-02-07T06:21:50.311Z",
+        "updatedAt": "2023-02-07T06:21:50.311Z",
+        "publishedAt": "2023-02-07T06:21:50.311Z",
+        "revisedAt": "2023-02-07T06:21:50.311Z",
+        "title": "Next.jsのSGとSSRの違いを理解しよう！",
+        "category": {
+          "id": "tutorial",
+          "createdAt": "2023-02-07T02:38:23.706Z",
+          "updatedAt": "2023-02-07T02:38:34.571Z",
+          "publishedAt": "2023-02-07T02:38:23.706Z",
+          "revisedAt": "2023-02-07T02:38:34.571Z",
+          "name": "チュートリアル"
+        },
+        "tag": [
+          {
+            "id": "typescript",
+            "createdAt": "2023-02-07T02:39:02.460Z",
+            "updatedAt": "2023-02-07T02:39:02.460Z",
+            "publishedAt": "2023-02-07T02:39:02.460Z",
+            "revisedAt": "2023-02-07T02:39:02.460Z",
+            "name": "TypeScript"
+          },
+          {
+            "id": "javascript",
+            "createdAt": "2023-02-07T02:40:01.749Z",
+            "updatedAt": "2023-02-07T02:40:01.749Z",
+            "publishedAt": "2023-02-07T02:40:01.749Z",
+            "revisedAt": "2023-02-07T02:40:01.749Z",
+            "name": "JavaScript"
+          },
+          {
+            "id": "nextjs",
+            "createdAt": "2023-02-07T02:39:33.864Z",
+            "updatedAt": "2023-02-07T02:39:33.864Z",
+            "publishedAt": "2023-02-07T02:39:33.864Z",
+            "revisedAt": "2023-02-07T02:39:33.864Z",
+            "name": "Next"
+          }
+        ],
+        "toc_visible": false,
+        "body": "<p><span style=\"color:#2b2c30\">こんにちは、シンハラです。</span><br><span style=\"color:#2b2c30\">普段はmicroCMSでテクニカルセールスとカスタマーサポートを行なっております。</span><br><br><span style=\"color:#2b2c30\">microCMSは単体では活用できないサービスとなるので、フロントエンドのフレームワークを組み合わせて構築を行う必要があります。私が参加しているセールスの打ち合わせでも、当然利用するフレームワークのお話が出てくるのですが、最近は</span><strong style=\"color:#2b2c30\">Next.js</strong><span style=\"color:#2b2c30\">の利用を検討されるケースが増えていると感じます。</span><br><br><span style=\"color:#2b2c30\">Next.jsは</span><strong style=\"color:#2b2c30\">Vercel社が開発しているReactベースの高機能フロントエンドフレームワーク</strong><span style=\"color:#2b2c30\">で、</span><strong style=\"color:#2b2c30\">OSS</strong><span style=\"color:#2b2c30\">として公開されています。</span><br><br><span style=\"color:#2b2c30\">Next.jsは高機能で使いやすい一方で、慣れるまでは全体像が掴みづらいという部分があります。特に、静的サイトジェネレーターとしても動作するし、バックエンドのプログラムとしても動作するという点が、初めて利用するユーザーにとっては非常に混乱を招く点となっております。</span><br><br><span style=\"color:#2b2c30\">今回はNext.jsの2つのページレンダリング機能に焦点をあてて、ご紹介したいと思います。</span><br></p><h1 id=\"h77a84a005c\">ページレンダリングの2つの方法</h1><h2 id=\"hf954b606ce\">SG(Static Generation)とは？</h2><p><strong>SSG</strong>(Static Site Generation)、<strong>静的サイトジェネレート</strong>と呼ばれることもあります。いわゆる<strong>Jamstack</strong>とよばれる作り方に関しても、こちらのSGが該当します。<br><br>こちらの手法は、ビルド時にヘッドレスCMS等のAPIにリクエストを送り、受け取ったデータから事前にページを生成する方法です。特徴はスタティック（静的）なページとして生成されるため、<strong>CDNに配置</strong>することができ、ページ表示にあたって<strong>高いパフォーマンス</strong>を発揮します。Next.jsのドキュメントにおいても、基本的にはこちらのレンダリング手法が推奨されています。<br><br>一方でデメリットもあります。大量のページがある際には、ビルドに時間を要すため、<strong>データの更新から反映までに、タイムラグが発生</strong>してしまいます。またデータの内容が動的に変化していく場合だと、ページのアクセスごとにレスポンスを作り直す必要があるので、不向きになります。</p><h2 id=\"hfb3daa49ca\">SSR(Server Side Rendering)とは？</h2><p>SGの対になる方法がSSRです。SSRは、<strong>アクセスのたびにデータフェッチを行い、ページを生成する手法</strong>になります。WordPressのようなバックエンドで動作するプログラムと同じような動きとなります。<br><br>こちらの手法の場合は、コンテンツ更新するたびにビルドを行う必要がありませんので、<strong>大量のコンテンツを管理</strong>する場合に向いています。またヘッドレスCMSでデータ更新を行なった際に、即時にページにもデータを反映させることができるので、<strong>速報性が重視されるコンテンツ</strong>にも活用できます。<br><br>デメリットとしては、<strong>アクセスのたびに処理を行うため、アクセス数に応じて、サーバへの負荷が上昇</strong>します。そのため、<strong>負荷分散の仕組みを構築</strong>するか、<strong>サーバレスなアーキテクチャで動作させる</strong>などの工夫が必要となります。またパフォーマンス面においては、SGには劣ってしまいます。<br><br>このようにSG/SSRには、メリット/デメリットが存在しているため、利用用途に応じて適切に使い分ける必要があります。</p><h1 id=\"h5efa1a96f1\">実際にSGとSSRを動かしてみよう</h1><p>それでは実際にSGとSSRを利用するコードを書いてみましょう。<br>Next.jsの大きな特徴として、<strong>一つのプロジェクトの中で、SGとSSRを混在して利用することができる</strong>、という点があります。今回は実際に、1ページずつSGとSSRで作成してみたいと思います。<br><br>以下にサンプルのソースコードを配置しております。<br><a style=\"color:#331cbf\" href=\"https://github.com/Sinhalite/sg-ssr-demo\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/Sinhalite/sg-ssr-demo</a><br><br>今回は<code>/sg</code>と<code>/ssr</code>というページを作成し、それぞれ以下のように記載しております。（一部コードのみ抜粋）<br></p><h2 id=\"h397e38daae\">補足</h2><p>開発用サーバーを起動するコマンド(<code>next dev</code>)を利用した場合は、getStaticPropsを利用した場合についても、SSRの動作となります(表示のたびに数字が変わる)。この仕様は開発のタイミングで、ソースコード変更のたびにビルドを実行していると、開発効率が悪いためと推測されます。今回のチュートリアルをローカルで動作確認する際は、<code>next build</code>→<code>next start</code>の手順で実行しましょう。<br></p><h1 id=\"h9be0c3393d\">おわりに</h1><p>以上、Next.jsのSGとSSRの違いについての記事でした。SSRを使ってNext.jsを利用しているケースはまだまだ少ない気がします。もしmicroCMSとNext.jsのSSRを活用して、大規模なウェブサイトを運用されている事例がありましたら、ぜひ参考にできればと思いますので、お声がけいただけると嬉しいです。</p>",
+        "description": "Next.jsのSGとSSRの違いの説明記事です",
+        "ogimage": {
+          "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/e7a9ee5c25ef4287a223c291dd9e2b5a/post_09.webp",
+          "height": 431,
+          "width": 820
+        },
+        "writer": {
+          "id": "himorishige",
+          "createdAt": "2023-02-07T02:30:59.739Z",
+          "updatedAt": "2023-02-07T02:33:51.531Z",
+          "publishedAt": "2023-02-07T02:30:59.739Z",
+          "revisedAt": "2023-02-07T02:30:59.739Z",
+          "name": "森茂 洋",
+          "text": "Web制作、開発会社を経て2022年11月にmicroCMSにジョイン。きっとインターネット老人会に所属しています。インフラやWebに関わる技術の探訪が大好きで興味をもった技術は広く深く掘り下げていくことが信念。microCMSではフロントエンドテックリードとして開発チームのサポートを担当。趣味はサイクリングとアイスホッケー、そして甘いもの。",
+          "image": {
+            "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/823eaade5e8b47558f8948935a314c13/author_hiroshimorishige.webp",
+            "height": 360,
+            "width": 360
+          }
+        },
+        "partner": null,
+        "related_blogs": [
+          {
+            "id": "web-frontend-architecture",
+            "createdAt": "2023-02-07T05:58:32.615Z",
+            "updatedAt": "2023-02-07T06:01:30.735Z",
+            "publishedAt": "2023-02-07T05:58:32.615Z",
+            "revisedAt": "2023-02-07T05:58:32.615Z",
+            "title": "microCMSのWebフロントエンドにクリーンアーキテクチャを採用した話【前編】",
+            "category": {
+              "id": "engineering"
+            },
+            "tag": [
+              {
+                "id": "typescript"
+              },
+              {
+                "id": "javascript"
+              },
+              {
+                "id": "reactjs"
+              }
+            ],
+            "toc_visible": false,
+            "body": "<h1 id=\"h8d027c8ed3\">はじめに</h1><p>microCMSの大西です。microCMSには2022年の5月に入社しました。普段は開発本部長として組織的な業務、エンジニアのサポート、開発全体の大まかなタスクの方向性を決めといった業務を行なっています。<br><br><strong>microCMSでは昨年中盤以降にWebフロントエンドの設計パターンを刷新しました。採用した設計パターンはクリーンアーキテクチャです。</strong><br>2回に分けて大西と森茂（フロントエンドテックリード）がmicroCMSのWebフロントエンドの設計パターンについて紹介します。<br><br>前提としてmicroCMSのフロントエンドはReact、状態管理にはuseState/useContextを使用しています。APIのキャッシュにReact Query（TanStack Query）を使用しています。比較的素朴な設計になっています。<br></p><h1 id=\"h42a4e15bdd\">背景と課題</h1><p><strong>microCMSはサービス開始から数年が経過しており、バックエンドもフロントエンドも初期コードベースを見直す時期に差し掛かっていました。しかし、なかなか技術改善の機会を作れていなかったため、自分が入社後にバックエンド・フロントエンドの技術改善を議論する会を開催しました。</strong><br><br>最初に刷新が決まったのはバックエンドです。バックエンドメンバーとの話し合いで、AWS AmplifyとNode.jsで記述されているものをTerraformとGolangに移行することが決まりました。Golangの設計パターンもクリーンアーキテクチャを意識したものになっています。これは別の機会に紹介しようと思います。<br><br>その後フロントエンドメンバーとフロントエンドの技術課題について話し合いをしました。フロントエンドの改善というとReact ComponentとFigmaの一致やStorybookなどデザイン領域の改善もありますが、今回は「技術」改善ということでデザインに関連する部分以外での改善点を話し合いました。そこで上がってきた課題は以下のようなものでした。<br></p><ul><li>TypeScriptへの移行がされていないファイルがある</li><li>フォルダ構成が整理されていない、共通認識が持てていない（この時はcomponents, hooks, utils, types, store, ducks...などが存在していた）</li><li>コンポーネントにロジックが書かれている</li><li>コンポーネントが肥大化しすぎている</li><li>状態管理がSingle Source of Truthになっていないケースがある</li><li>useState, useEffectを気軽に使いすぎて処理が複雑になっている</li><li>命名規則がバラバラ</li><li>HelpButtonやCustomStatusなどシンプルかつ小さなatom的なコンポーネントでも状態やロジックを持っている</li></ul><p><br><strong>上記に挙げた課題は一部ですが大小さまざまな改善点または理想のようなものがありました。</strong>これらはmicroCMS特有のものではなく皆様も感じられる一般的なものかと思われます。<br></p><h1 id=\"ha78381680c\">解決の方向性</h1><p>技術改善に限りませんが、一般的にブレスト的に上がってきた課題に対して1:1対応で直接的に解決策を考えることはあまり効果的ではありません。例えば、「Componentのファイルを細かく分ける」「useState、useEffectはなるべく使わない」「ComponentのロジックをCustom Hooks切り出す」のように個別具体的な対策では対症療法になりがちです。<br>特に今回のように大小さまざまで観点も異なる問題が多く出てきた場合は1つ1つに向き合う時間もありません。なるべく効果的な改善策を検討する必要があります。<br></p><h1 id=\"h5d8ff6e31e\">なぜクリーンアーキテクチャを選んだのか</h1><p>前述の課題に対し、microCMSでは「クリーンアーキテクチャ」の思想を採用しました。クリーンアーキテクチャはポピュラーな設計パターンの思想で、「<strong>依存の方向性</strong>」「<strong>責務の分離（関心の分離）</strong>」「<strong>依存性逆転の法則</strong>」を重視しようというものです。この基準に沿った構成にすることで責務が分離され変更に強くなりテスタブルになります。<br><br>フレームワークやライブラリにロックインせず素朴に構成可能であり、クロスプラットフォームな設計パターンの思想で、テスタブルであること、またReactの世界にも影響（制約）を与えないので採用することにしました。例えばReactコンポーネントの領域はatomicデザインの設計パターンを採用することも可能です。<br>ここ最近はフロントエンドのユニットテストにも力を入れており、テスタブルであることは極めて重要です。</p><h4 id=\"he8798425ac\">クリーンアーキテクチャとは</h4><p>設計パターンの厳密な定義について語ろうとすると意図しない議論になりがちですので、ここでは厳密に正しい説明はせず<a style=\"color:#331cbf\" href=\"https://gist.github.com/mpppk/609d592f25cab9312654b39f1b357c60\" target=\"_blank\" rel=\"noopener noreferrer\">多くの解説記事</a>にお任せしたいと思います。<br><strong>クリーンアーキテクチャは本来はディレクトリ構造や書き方のルールの集合体やフレームワークではなく、「依存の方向性」「責務の分離」「依存性逆転の法則」などをしっかり守って、レイヤー構造にし、疎結合で外部に影響を受けずテスタブルで変化に強い設計にしようという概念的なものです。</strong>ただしこれでは抽象的すぎるため、「View・Presenter・UseCase・Repository・Entity」のような具体的なレイヤー名に落とし込んだパターンで有名なものがいくつか存在しています。後述しますが、microCMSではこの5つのレイヤー構造のパターンのことをクリーンアーキテクチャと呼んでいます。<br>オニオンアーキテクチャなどもありますが、本質的な部分は変わらないと思います。</p>",
+            "description": "microCMSのWebフロントエンドにクリーンアーキテクチャを採用した話",
+            "ogimage": {
+              "url": "https://images.microcms-assets.io/assets/e6ce2434fe7d42738bd7f9ce8d4f79fb/fd7ab1793f294751a064cea62fd2d937/post_03.webp",
+              "height": 431,
+              "width": 820
+            },
+            "writer": {
+              "id": "marei"
+            },
+            "partner": null,
+            "related_blogs": [
+              {
+                "id": "conversation-design"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalCount": 18,
+    "offset": 0,
+    "limit": 10
+  },
+  "categories": {
+    "contents": [
+      {
+        "id": "tutorial",
+        "createdAt": "2023-02-07T02:38:23.706Z",
+        "updatedAt": "2023-02-07T02:38:34.571Z",
+        "publishedAt": "2023-02-07T02:38:23.706Z",
+        "revisedAt": "2023-02-07T02:38:34.571Z",
+        "name": "チュートリアル"
+      },
+      {
+        "id": "engineering",
+        "createdAt": "2023-02-07T02:37:59.224Z",
+        "updatedAt": "2023-02-07T02:37:59.224Z",
+        "publishedAt": "2023-02-07T02:37:59.224Z",
+        "revisedAt": "2023-02-07T02:37:59.224Z",
+        "name": "エンジニアリング"
+      },
+      {
+        "id": "usecase",
+        "createdAt": "2023-02-07T02:37:41.933Z",
+        "updatedAt": "2023-02-07T02:37:41.933Z",
+        "publishedAt": "2023-02-07T02:37:41.933Z",
+        "revisedAt": "2023-02-07T02:37:41.933Z",
+        "name": "導入事例"
+      },
+      {
+        "id": "column",
+        "createdAt": "2023-02-07T02:36:13.409Z",
+        "updatedAt": "2023-02-07T02:37:27.483Z",
+        "publishedAt": "2023-02-07T02:36:13.409Z",
+        "revisedAt": "2023-02-07T02:37:27.483Z",
+        "name": "コラム"
+      },
+      {
+        "id": "marketing",
+        "createdAt": "2023-02-07T02:35:59.670Z",
+        "updatedAt": "2023-02-07T02:35:59.670Z",
+        "publishedAt": "2023-02-07T02:35:59.670Z",
+        "revisedAt": "2023-02-07T02:35:59.670Z",
+        "name": "マーケティング"
+      },
+      {
+        "id": "event",
+        "createdAt": "2023-02-07T02:35:21.536Z",
+        "updatedAt": "2023-02-07T02:35:31.715Z",
+        "publishedAt": "2023-02-07T02:35:21.536Z",
+        "revisedAt": "2023-02-07T02:35:31.715Z",
+        "name": "イベント・セミナー"
+      }
+    ],
+    "totalCount": 6,
+    "offset": 0,
+    "limit": 10
+  },
+  "tags": {
+    "contents": [
+      {
+        "id": "reactnative",
+        "createdAt": "2023-02-07T02:41:58.523Z",
+        "updatedAt": "2023-02-07T02:41:58.523Z",
+        "publishedAt": "2023-02-07T02:41:58.523Z",
+        "revisedAt": "2023-02-07T02:41:58.523Z",
+        "name": "React Native"
+      },
+      {
+        "id": "astro",
+        "createdAt": "2023-02-07T02:41:41.361Z",
+        "updatedAt": "2023-02-07T02:41:41.361Z",
+        "publishedAt": "2023-02-07T02:41:41.361Z",
+        "revisedAt": "2023-02-07T02:41:41.361Z",
+        "name": "Astro"
+      },
+      {
+        "id": "a11y",
+        "createdAt": "2023-02-07T02:41:28.186Z",
+        "updatedAt": "2023-02-07T02:41:28.186Z",
+        "publishedAt": "2023-02-07T02:41:28.186Z",
+        "revisedAt": "2023-02-07T02:41:28.186Z",
+        "name": "Accessibility"
+      },
+      {
+        "id": "cloudflare",
+        "createdAt": "2023-02-07T02:41:08.411Z",
+        "updatedAt": "2023-02-07T02:41:08.411Z",
+        "publishedAt": "2023-02-07T02:41:08.411Z",
+        "revisedAt": "2023-02-07T02:41:08.411Z",
+        "name": "Cloudflare"
+      },
+      {
+        "id": "operation",
+        "createdAt": "2023-02-07T02:40:49.188Z",
+        "updatedAt": "2023-02-07T02:40:49.188Z",
+        "publishedAt": "2023-02-07T02:40:49.188Z",
+        "revisedAt": "2023-02-07T02:40:49.188Z",
+        "name": "運用"
+      },
+      {
+        "id": "jamstack",
+        "createdAt": "2023-02-07T02:40:34.625Z",
+        "updatedAt": "2023-02-07T02:40:34.625Z",
+        "publishedAt": "2023-02-07T02:40:34.625Z",
+        "revisedAt": "2023-02-07T02:40:34.625Z",
+        "name": "Jamstack"
+      },
+      {
+        "id": "css",
+        "createdAt": "2023-02-07T02:40:18.643Z",
+        "updatedAt": "2023-02-07T02:40:18.643Z",
+        "publishedAt": "2023-02-07T02:40:18.643Z",
+        "revisedAt": "2023-02-07T02:40:18.643Z",
+        "name": "CSS"
+      },
+      {
+        "id": "html",
+        "createdAt": "2023-02-07T02:40:10.495Z",
+        "updatedAt": "2023-02-07T02:40:10.495Z",
+        "publishedAt": "2023-02-07T02:40:10.495Z",
+        "revisedAt": "2023-02-07T02:40:10.495Z",
+        "name": "HTML"
+      },
+      {
+        "id": "javascript",
+        "createdAt": "2023-02-07T02:40:01.749Z",
+        "updatedAt": "2023-02-07T02:40:01.749Z",
+        "publishedAt": "2023-02-07T02:40:01.749Z",
+        "revisedAt": "2023-02-07T02:40:01.749Z",
+        "name": "JavaScript"
+      },
+      {
+        "id": "reactjs",
+        "createdAt": "2023-02-07T02:39:49.506Z",
+        "updatedAt": "2023-02-07T02:39:49.506Z",
+        "publishedAt": "2023-02-07T02:39:49.506Z",
+        "revisedAt": "2023-02-07T02:39:49.506Z",
+        "name": "React"
+      }
+    ],
+    "totalCount": 13,
+    "offset": 0,
+    "limit": 10
+  }
+}

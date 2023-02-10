@@ -40,8 +40,25 @@ export const table = css`
           text-decoration: underline;
         }
       }
+
+      ul {
+        margin: 0 0 0 1em;
+        padding: 0;
+
+        &:empty {
+          display: none;
+        }
+      }
     }
   }
+`
+
+export const fontSmall = css`
+  font-size: 14px;
+`
+
+export const tableNarrow = css`
+  width: auto !important;
 `
 
 export const nowrap = css`

@@ -38,6 +38,15 @@ const Home: NextPage = () => {
             二十四節気
           </a>
         </li>
+        <li>
+          <a
+            href="/data/microcms.json"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            microCMS
+          </a>
+        </li>
       </ul>
       <h2>配列操作サンプル</h2>
       <h3>紅葉スポット</h3>
@@ -151,6 +160,17 @@ const Home: NextPage = () => {
         <li>
           <Link href="/calendar/keyby/">
             <a>配列のオブジェクト化（keyBy）</a>
+          </Link>
+        </li>
+      </ul>
+      <h3>microCMS</h3>
+      <ul css={styles.index}>
+        <li>
+          <Link href="/microcms/">microCMS 全表示</Link>
+        </li>
+        <li>
+          <Link href="/microcms/groupby/">
+            カテゴリ一覧の件数を取得（groupBy）
           </Link>
         </li>
       </ul>
