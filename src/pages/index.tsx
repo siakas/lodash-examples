@@ -8,7 +8,7 @@ import * as styles from '@/styles/mods.styles'
 const Home: NextPage = () => {
   return (
     <DefaultLayout>
-      <p css={styles.version}>v0.2.4</p>
+      <p css={styles.version}>v0.2.5</p>
       <h2>JSON データ</h2>
       <ul css={styles.index}>
         <li>

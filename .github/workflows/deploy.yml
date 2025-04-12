@@ -37,4 +37,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_REMOTE_ROOT }}/
           local-dir: dist/
-          dangerous-clean-slate: true # 既存ファイルを削除してからアップロード
