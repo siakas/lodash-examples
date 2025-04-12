@@ -18,7 +18,7 @@ const RecruitIndex: NextPage = () => {
       <table css={styles.table}>
         <thead>
           <tr>
-            <th>店舗名</th>
+            <th>施設名</th>
             <th>
               募集
               <br />
@@ -26,7 +26,7 @@ const RecruitIndex: NextPage = () => {
             </th>
             <th>募集職種</th>
             <th>採用形態</th>
-            <th>業態</th>
+            <th>グループ</th>
           </tr>
         </thead>
         <tbody>
