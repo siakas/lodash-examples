@@ -112,3 +112,7 @@ export const ol = css`
     }
   }
 `
+
+export const version = css`
+  text-align: right;
+`
