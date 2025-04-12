@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 22.x
+      - name: Setup Node.js 22.14.0
         uses: actions/setup-node@v4
         with:
           node-version: 22.14.0
@@ -37,4 +37,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_REMOTE_ROOT }}/
           local-dir: dist/
-          # dangerous-clean-slate: true  # 既存ファイルを削除してからアップロード
+          dangerous-clean-slate: true # 既存ファイルを削除してからアップロード
